@@ -1,3 +1,28 @@
+@font-face{font-family:"Barlow Condensed";font-weight:800;font-style:normal;font-display:swap;src:url(/assets/fonts/barlow-condensed-latin-800-normal.woff2) format("woff2")}
+:root{--display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif}
+h1,h2,h3,.prog h3,.brand{font-stretch:normal!important}
+h1,h2,h3{font-weight:800}
+.hero h1{font-size:clamp(3rem,10vw,6rem);line-height:.9}
+h2{font-size:clamp(2.2rem,5vw,3.4rem);line-height:1}
+.bio details.more{margin-top:12px}.bio summary{cursor:pointer;color:var(--orange-ink);font-weight:600;min-height:44px;display:flex;align-items:center}
+.bio p{max-width:62ch}
+.week-list{display:none}
+.path-h{font-family:var(--mono);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--sun);margin:8px 0 0;font-weight:400}
+.shot-path{color:#d4ebe6}
+.shots button,.replay,.chips button,.slot,.lang button{min-height:44px}
+@media (max-width:39.99rem){
+ .week-scroll{display:none}
+ .week-list{display:grid;gap:18px}
+ .week-list h3{font-size:1.5rem;margin:0 0 6px}
+ .week-list ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+ .week-list li.row{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;align-items:center}
+ .week-list .row button{display:flex;gap:12px;align-items:center;width:100%;min-height:48px;text-align:left;background:var(--panel);border:1px solid var(--line);border-left:6px solid var(--c);border-radius:6px;padding:8px 12px;color:var(--ink)}
+ .week-list .row button[aria-pressed="true"]{outline:3px solid var(--ink)}
+ .week-list .row button.dim{opacity:.35}
+ .week-list .row b{font-family:var(--mono);font-weight:600;font-size:.85rem;white-space:nowrap}
+ .week-list .row i{width:12px;height:12px;border-radius:50%;background:var(--c);flex:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.meter .bar i{transition:none}}
 .skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;z-index:99;background:#fff;color:#000;padding:.4rem .8rem}
 .family-credit{--family-top:.35rem}
 .topbar{position:sticky;top:0;z-index:40;background:var(--panel);border-bottom:1px solid var(--line)}

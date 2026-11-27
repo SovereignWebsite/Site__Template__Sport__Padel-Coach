@@ -5,6 +5,9 @@
 - Draft and demo notices shown. PT text is machine-translated and unchecked (flagged on the page).
 - tools/check.sh passes.
 
+- design.c's fixes 1 to 5 done (13:5x UTC): mobile week list under 40rem; self-hosted Barlow Condensed 800 (SIL OFL, Latin, swap, preload); WebP srcset 480/960/1376 with sizes and lazy below the hero (JPEG masters kept in assets/img); bio short plus "More about" details; reduced motion shows the ball at rest and the court lab has each shot in words (EN and PT).
+- site/designs/** and site/assets/fonts/** for the five directions are design.c's: I leave them alone (my one font file sits in site/assets/fonts/).
+
 ## To do
 1. Ask design.c (through padel.c) for the brief and directions; then designs in EN and PT.
 2. Learnings from Lee-Elle's site: one "Choose a design" button with real screenshots; admin area (tasks, designs, content, photos and credits, checks, history); guided tour slides with PDF; floating language button on scroll; check at 390 px, light and dark.

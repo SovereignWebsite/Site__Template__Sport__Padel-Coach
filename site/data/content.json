@@ -68,10 +68,6 @@
    "en": "Position before power.",
    "pt": "Posição antes da força."
   },
-  "bio": {
-   "en": "Tomás Vilaréu is a bilingual padel coach based near Loulé, where he leads sessions at the fictional Clube Padel Brisa do Laranjal. A calm communicator, he coaches in Portuguese and English, helping local players, expats and visitors feel equally welcome on court. Tomás began playing racket sports as a teenager and later focused fully on padel, drawn to its teamwork, angles and quick tactical choices. His sessions combine clear demonstrations, purposeful repetition and plenty of live play. He pays close attention to movement, positioning and decision making before adding speed or power. Whether guiding a complete beginner or an experienced competitor, Tomás sets practical goals, gives direct feedback and keeps the atmosphere friendly, focused and encouraging throughout every lesson for all players.",
-   "pt": "Tomás Vilaréu é um treinador bilingue de padel sediado perto de Loulé, onde orienta sessões no fictício Clube Padel Brisa do Laranjal. Comunica com calma em português e inglês, fazendo com que jogadores locais, residentes estrangeiros e visitantes se sintam bem-vindos. Começou nos desportos de raquete durante a adolescência e mais tarde dedicou-se ao padel, atraído pelo trabalho de equipa, pelos ângulos e pelas decisões rápidas. As suas sessões combinam demonstrações claras, repetição com propósito e situações reais de jogo. Tomás dá prioridade ao movimento, posicionamento e tomada de decisão antes de acrescentar velocidade ou potência. Define objetivos práticos, oferece feedback direto e mantém cada aula acolhedora, concentrada e positiva."
-  },
   "fact1": {
    "en": "Coaches in Portuguese and English",
    "pt": "Treina em português e inglês"
@@ -367,6 +363,30 @@
   "source": {
    "en": "Source",
    "pt": "Código"
+  },
+  "bio_short": {
+   "en": "Tomás Vilaréu is a bilingual padel coach based near Loulé, where he leads sessions at the fictional Clube Padel Brisa do Laranjal. A calm communicator, he coaches in Portuguese and English, helping local players, expats and visitors feel equally welcome on court.",
+   "pt": "Tomás Vilaréu é um treinador bilingue de padel sediado perto de Loulé, onde orienta sessões no fictício Clube Padel Brisa do Laranjal. Comunica com calma em português e inglês, fazendo com que jogadores locais, residentes estrangeiros e visitantes se sintam bem-vindos."
+  },
+  "bio_rest": {
+   "en": "Tomás began playing racket sports as a teenager and later focused fully on padel, drawn to its teamwork, angles and quick tactical choices. His sessions combine clear demonstrations, purposeful repetition and plenty of live play. He pays close attention to movement, positioning and decision making before adding speed or power. Whether guiding a complete beginner or an experienced competitor, Tomás sets practical goals, gives direct feedback and keeps the atmosphere friendly, focused and encouraging throughout every lesson for all players.",
+   "pt": "Começou nos desportos de raquete durante a adolescência e mais tarde dedicou-se ao padel, atraído pelo trabalho de equipa, pelos ângulos e pelas decisões rápidas. As suas sessões combinam demonstrações claras, repetição com propósito e situações reais de jogo. Tomás dá prioridade ao movimento, posicionamento e tomada de decisão antes de acrescentar velocidade ou potência. Define objetivos práticos, oferece feedback direto e mantém cada aula acolhedora, concentrada e positiva."
+  },
+  "bio_more": {
+   "en": "More about Tomás",
+   "pt": "Mais sobre o Tomás"
+  },
+  "week_list_label": {
+   "en": "Sessions by day",
+   "pt": "Sessões por dia"
+  },
+  "path_h": {
+   "en": "The shot in words",
+   "pt": "A pancada por palavras"
+  },
+  "motion_note": {
+   "en": "Your device asks for less motion, so the ball is shown at rest. Read the shot in words below.",
+   "pt": "O seu dispositivo pede menos movimento, por isso a bola aparece parada. Leia a pancada por palavras abaixo."
   }
  },
  "philosophy": [
@@ -869,6 +889,10 @@
    "text": {
     "en": "The bandeja is a controlled overhead used to keep the net without forcing a winner. Tomás teaches a sideways preparation, a calm contact point and a balanced recovery.",
     "pt": "A bandeja é uma pancada alta controlada, usada para manter a rede sem forçar o ponto. O Tomás ensina uma preparação de lado, um ponto de contacto calmo e uma recuperação equilibrada."
+   },
+   "path": {
+    "en": "From the opponents' back glass the ball comes up high. Tomás, at the net, turns sideways and plays a controlled overhead. It lands deep on the opponents' side, rolls off the corner of the back glass and comes back slowly.",
+    "pt": "A partir do vidro de fundo adversário, a bola vem alta. O Tomás, na rede, põe-se de lado e joga uma pancada alta controlada. Cai ao fundo do campo adversário, sai pelo canto do vidro de fundo e regressa devagar."
    }
   },
   {
@@ -884,6 +908,10 @@
    "text": {
     "en": "The víbora adds side spin and speed so the ball stays low after the glass. Tomás builds it from relaxed shoulder rotation, clean timing and a finish across the body.",
     "pt": "A víbora acrescenta efeito lateral e velocidade para a bola ficar baixa depois do vidro. O Tomás constrói-a com rotação relaxada do ombro, timing limpo e um final cruzado pelo corpo."
+   },
+   "path": {
+    "en": "A high ball arrives on Tomás's side. He plays the víbora with side spin: it crosses low, bounces near the side wall, touches the side glass then the back glass, and stays low.",
+    "pt": "Uma bola alta chega ao lado do Tomás. Joga a víbora com efeito lateral: cruza baixa, bate perto da parede lateral, toca no vidro lateral e depois no de fundo, e fica baixa."
    }
   },
   {
@@ -899,6 +927,10 @@
    "text": {
     "en": "The chiquita is a soft, low shot played towards the feet of opponents at the net. Tomás teaches players to disguise it, control the pace and move forward together.",
     "pt": "A chiquita é uma pancada suave e baixa jogada aos pés dos adversários na rede. O Tomás ensina a disfarçá-la, controlar o ritmo e avançar em conjunto."
+   },
+   "path": {
+    "en": "The ball comes from the net players. Tomás plays a soft, low chiquita towards their feet, it bounces short and slow, and his pair moves forward together to take the net.",
+    "pt": "A bola vem dos jogadores da rede. O Tomás joga uma chiquita suave e baixa aos pés deles, ressalta curta e lenta, e a dupla avança em conjunto para tomar a rede."
    }
   },
   {
@@ -914,6 +946,10 @@
    "text": {
     "en": "The bajada de pared attacks a high ball after it rebounds from the back glass. Tomás focuses on early spacing, a high preparation and controlled direction rather than wild power.",
     "pt": "A bajada de pared ataca uma bola alta depois de ressaltar no vidro de fundo. O Tomás foca o espaçamento antecipado, a preparação alta e a direcção controlada em vez de força descontrolada."
+   },
+   "path": {
+    "en": "A high ball bounces and rebounds off Tomás's back glass. He waits, prepares high and attacks it down the line, so it bounces deep on the opponents' side and kicks off their back glass.",
+    "pt": "Uma bola alta ressalta e sai do vidro de fundo do Tomás. Ele espera, prepara alto e ataca-a ao longo da linha, de modo que bate ao fundo do lado adversário e sai pelo vidro de fundo deles."
    }
   }
  ]

@@ -53,6 +53,17 @@ function week() {
     });
     grid.append(c);
   });
+  const wl = $("#weekList"); wl.innerHTML = "";
+  Object.entries(C.week).forEach(([d, list]) => {
+    const sec = el("div", {}, `<h3>${L(C.days[d])}</h3>`); const ul = el("ul");
+    list.forEach(({ time: t, programme: id }) => {
+      const p = C.programmes[id], end = progEnd(t, id); const li = el("li", { class: "row", style: `--c:${col(id)}` });
+      const b = el("button", { type: "button", class: shown.has(id) ? "" : "dim", "aria-pressed": String(!!(picked && picked.d === d && picked.t === t)) }, `<i aria-hidden="true"></i><b>${t} ${T("to")} ${end}</b><span>${L(p.title)}</span>`);
+      b.addEventListener("click", () => { picked = { d, t, id }; week(); pickedText(); $("#done").hidden = true; });
+      li.append(b); ul.append(li);
+    });
+    sec.append(ul); wl.append(sec);
+  });
   grid.append(el("div", { class: "heat-label", style: `top:${y("11:30") + 60}px` }, T("heat")));
   $("#chips").innerHTML = "";
   Object.entries(C.programmes).forEach(([id, p]) => {
@@ -137,7 +148,7 @@ function draw(s) {
   s.them.forEach(([x, yy]) => players.append(sv("circle", { cx: x, cy: yy, r: 4.2, fill: "#f1f6f4", stroke: "#0a3b3a", "stroke-width": ".5" })));
   s.path.forEach((sg) => { if (sg.bounce) { const p = sg.bounceAt ? seg(sg, sg.bounceAt) : sg.to; marks.append(cross(p[0], p[1])); } if (sg.glass) marks.append(cross(sg.to[0], sg.to[1])); });
   trail.setAttribute("d", pathD(s));
-  $("#shotName").textContent = L(cs.name); $("#shotKind").textContent = L(cs.kind); $("#shotText").textContent = L(cs.text);
+  $("#shotName").textContent = L(cs.name); $("#shotKind").textContent = L(cs.kind); $("#shotText").textContent = L(cs.text); $("#shotPath").textContent = L(cs.path); $("#motionNote").hidden = !reduce;
   $("#mPace").style.width = s.pace + "%"; $("#mHeight").style.width = s.height + "%";
 }
 function place(x, yy, h) { ball.setAttribute("cx", x); ball.setAttribute("cy", yy - h * 6); ball.setAttribute("r", (1.6 + h * 2.2).toFixed(2)); shadow.setAttribute("cx", x); shadow.setAttribute("cy", yy + 1); shadow.setAttribute("rx", (2 - h * .6).toFixed(2)); }

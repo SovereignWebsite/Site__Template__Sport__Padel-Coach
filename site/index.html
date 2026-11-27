@@ -44,6 +44,7 @@
 @media print{.family-credit{display:none}}
 
 </style>
+<link rel="preload" href="/assets/fonts/barlow-condensed-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/style.css">
 <link rel="stylesheet" href="/assets/extra.css">
 </head>
@@ -81,7 +82,7 @@
   </div>
 </div></header>
 <section class="hero" data-t-label="name">
-  <img src="/assets/img/p1.jpg" data-t-alt="hero_alt" alt="" width="1376" height="768">
+  <img src="/assets/img/p1-960.webp" srcset="/assets/img/p1-480.webp 480w, /assets/img/p1-960.webp 960w, /assets/img/p1-1376.webp 1376w" sizes="100vw" data-t-alt="hero_alt" alt="" fetchpriority="high" width="1376" height="768">
   <div class="wrap"><div class="hero-copy">
     <h1>Tomás<span>Vilaréu</span></h1>
     <p class="lede" data-t="tagline"></p>
@@ -92,7 +93,7 @@
 <main id="main">
   <section><div class="wrap about">
     <div style="display:grid;gap:18px">
-      <p class="eyebrow" data-t="about_eyebrow"></p><h2 data-t="about_h"></h2><p class="bio" data-t="bio"></p>
+      <p class="eyebrow" data-t="about_eyebrow"></p><h2 data-t="about_h"></h2><div class="bio"><p data-t="bio_short"></p><details class="more"><summary data-t="bio_more"></summary><p data-t="bio_rest"></p></details></div>
       <div class="facts"><span data-t="fact1"></span><span data-t="fact2"></span><span data-t="fact3"></span></div>
     </div>
     <div><p class="eyebrow" style="margin-bottom:12px" data-t="how_eyebrow"></p><div class="principles" id="principles"></div></div>
@@ -122,8 +123,8 @@
           </g>
         </svg>
       </div>
-      <div class="shot-card" aria-live="polite">
-        <p class="eyebrow" id="shotKind"></p><h3 id="shotName"></h3><p id="shotText"></p>
+      <div class="shot-card">
+        <p class="eyebrow" id="shotKind"></p><h3 id="shotName"></h3><p id="shotText"></p><h4 class="path-h" data-t="path_h"></h4><p id="shotPath" class="shot-path"></p><p id="motionNote" class="shot-path" hidden data-t="motion_note"></p>
         <div class="meter"><span data-t="pace"></span><div class="bar"><i id="mPace"></i></div><span data-t="height"></span><div class="bar"><i id="mHeight"></i></div></div>
         <button class="replay" type="button" id="replay" data-t="replay"></button>
         <div class="legend">
@@ -137,15 +138,16 @@
   <section><div class="wrap">
     <div class="day"><div style="display:grid;gap:12px"><p class="eyebrow" data-t="day_eyebrow"></p><h2 data-t="day_h"></h2></div><p data-t="day"></p></div>
     <div class="strip">
-      <figure class="a"><img src="/assets/img/p2.jpg" data-t-alt="alt2" alt="" loading="lazy" width="1376" height="768"><figcaption data-t="cap1"></figcaption></figure>
-      <figure class="b"><img src="/assets/img/p3.jpg" data-t-alt="alt3" alt="" loading="lazy" width="1376" height="768"><figcaption data-t="cap2"></figcaption></figure>
-      <figure class="c"><img src="/assets/img/p4.jpg" data-t-alt="alt4" alt="" loading="lazy" width="1376" height="768"><figcaption data-t="cap3"></figcaption></figure>
-      <figure class="d"><img src="/assets/img/p5.jpg" data-t-alt="alt5" alt="" loading="lazy" width="1376" height="768"><figcaption data-t="cap4"></figcaption></figure>
+      <figure class="a"><img src="/assets/img/p2-960.webp" srcset="/assets/img/p2-480.webp 480w, /assets/img/p2-960.webp 960w, /assets/img/p2-1376.webp 1376w" sizes="(max-width:760px) 100vw, 58vw" data-t-alt="alt2" alt="" loading="lazy" width="1376" height="768"><figcaption data-t="cap1"></figcaption></figure>
+      <figure class="b"><img src="/assets/img/p3-960.webp" srcset="/assets/img/p3-480.webp 480w, /assets/img/p3-960.webp 960w, /assets/img/p3-1376.webp 1376w" sizes="(max-width:760px) 100vw, 58vw" data-t-alt="alt3" alt="" loading="lazy" width="1376" height="768"><figcaption data-t="cap2"></figcaption></figure>
+      <figure class="c"><img src="/assets/img/p4-960.webp" srcset="/assets/img/p4-480.webp 480w, /assets/img/p4-960.webp 960w, /assets/img/p4-1376.webp 1376w" sizes="(max-width:760px) 100vw, 58vw" data-t-alt="alt4" alt="" loading="lazy" width="1376" height="768"><figcaption data-t="cap3"></figcaption></figure>
+      <figure class="d"><img src="/assets/img/p5-960.webp" srcset="/assets/img/p5-480.webp 480w, /assets/img/p5-960.webp 960w, /assets/img/p5-1376.webp 1376w" sizes="(max-width:760px) 100vw, 58vw" data-t-alt="alt5" alt="" loading="lazy" width="1376" height="768"><figcaption data-t="cap4"></figcaption></figure>
     </div>
   </div></section>
   <section style="padding-top:0"><div class="wrap"><p class="eyebrow" data-t="prog_eyebrow"></p><h2 style="margin-top:12px" data-t="prog_h"></h2><div class="progs" id="progs"></div></div></section>
   <section id="week" style="padding-top:0"><div class="wrap">
     <div class="week-head"><div style="display:grid;gap:12px"><p class="eyebrow" data-t="week_eyebrow"></p><h2 data-t="week_h"></h2></div><div class="chips" role="group" data-t-label="show_prog" id="chips"></div></div>
+    <div class="week-list" id="weekList" role="group" data-t-label="week_list_label"></div>
     <div class="week-scroll" tabindex="0" role="region" data-t-label="week_h"><div class="week" id="weekGrid"></div></div>
     <p class="week-note" data-t="week_note"></p>
     <div class="request" id="request">
