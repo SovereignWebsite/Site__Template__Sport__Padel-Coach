@@ -1,1 +1,0 @@
-const p=await c.newPage();await p.goto('http://localhost:8791/designs/'+n+'/');await p.waitForSelector('

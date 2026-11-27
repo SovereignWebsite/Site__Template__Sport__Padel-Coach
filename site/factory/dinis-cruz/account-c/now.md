@@ -6,6 +6,7 @@
 - tools/check.sh passes.
 
 - design.c's fixes 1 to 5 done (13:5x UTC): mobile week list under 40rem; self-hosted Barlow Condensed 800 (SIL OFL, Latin, swap, preload); WebP srcset 480/960/1376 with sizes and lazy below the hero (JPEG masters kept in assets/img); bio short plus "More about" details; reduced motion shows the ball at rest and the court lab has each shot in words (EN and PT).
+- design.c's five designs merged (work/design.c-padel-1 at 58b3092) with picker keys in content.json (EN and PT), a "Choose a design" button in the top bar linking /designs/, footer link targets 44 px; two stray junk files from that branch removed. Live: /designs/ and /designs/1 to 5. Choice of design is Dinis's.
 - site/designs/** and site/assets/fonts/** for the five directions are design.c's: I leave them alone (my one font file sits in site/assets/fonts/).
 
 ## To do

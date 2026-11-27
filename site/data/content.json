@@ -387,6 +387,46 @@
   "motion_note": {
    "en": "Your device asks for less motion, so the ball is shown at rest. Read the shot in words below.",
    "pt": "O seu dispositivo pede menos movimento, por isso a bola aparece parada. Leia a pancada por palavras abaixo."
+  },
+  "design_choose": {
+   "en": "Choose a design",
+   "pt": "Escolher um design"
+  },
+  "design_short": {
+   "en": "Designs",
+   "pt": "Designs"
+  },
+  "design_intro": {
+   "en": "Five designs for the same coach, the same words and the same court lab.",
+   "pt": "Cinco designs para o mesmo treinador, as mesmas palavras e o mesmo laboratório do court."
+  },
+  "design_compare": {
+   "en": "Compare them",
+   "pt": "Compará-los"
+  },
+  "design_live": {
+   "en": "See the live page",
+   "pt": "Ver a página principal"
+  },
+  "design_n1": {
+   "en": "Matchday",
+   "pt": "Dia de jogo"
+  },
+  "design_n2": {
+   "en": "Algarve Light",
+   "pt": "Luz do Algarve"
+  },
+  "design_n3": {
+   "en": "Court Lines",
+   "pt": "Linhas do court"
+  },
+  "design_n4": {
+   "en": "Club Poster",
+   "pt": "Cartaz do clube"
+  },
+  "design_n5": {
+   "en": "Night Session",
+   "pt": "Sessão noturna"
   }
  },
  "philosophy": [

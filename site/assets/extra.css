@@ -42,3 +42,10 @@ body{margin:0}
 :root{--p1:#1f6b61;--p2:#2f5f9a;--p3:#a2450c;--p4:#7547a0}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--p1:#4cb3a5;--p2:#8fb2ea;--p3:#f08a43;--p4:#c7a5ee}:root:not([data-theme="light"]) .slot{color:#07100f}}
 :root[data-theme="dark"]{--p1:#4cb3a5;--p2:#8fb2ea;--p3:#f08a43;--p4:#c7a5ee}:root[data-theme="dark"] .slot{color:#07100f}
+.dchoose{flex:none;display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border:1px solid var(--ink);border-radius:999px;color:var(--ink);font-weight:600;font-size:.85rem;text-decoration:none;white-space:nowrap}
+.dchoose .short{display:none}.dchoose:hover{background:var(--ink);color:var(--ground)}
+.tnav{margin-left:auto}.dchoose{margin-left:0}
+@media (max-width:640px){.dchoose .long{display:none}.dchoose .short{display:inline}.dchoose{margin-left:auto}.topbar .lang{margin-left:0}}
+[data-design] .dchoose{display:none}
+footer .foot-links a{display:inline-flex;align-items:center;min-height:44px}
+@media (max-width:420px){.topbar .wrap{gap:6px}.topbar .brand{font-size:.95rem}.dchoose{padding:0 10px}.topbar .lang button{padding:6px 8px}}
