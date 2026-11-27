@@ -1,0 +1,53 @@
+/* Design 2, Algarve Light (design.c): photograph-led and editorial. Instrument Serif headlines over system sans;
+   cream, orange-grove green and terracotta; the page runs from morning light to evening, like the coach's day. */
+:root[data-design]{--surface:#3d7a47;--ground:#fbf5ea;--panel:#fffaf2;--ink:#2a2118;--muted:#5e4d3c;--line:#e4d5bf;--court:#3f6b3a;--court-deep:#24432a;
+  --orange:#e07a45;--orange-ink:#9c3f18;--sun:#f6c879;--chalk:#fff;
+  --display:"Instrument Serif",Georgia,serif;--mono:system-ui,sans-serif;
+  --dawn:#fde7c4;--dusk:#f3d4b2}
+@media (prefers-color-scheme:dark){:root[data-design]:not([data-theme="light"]){--ground:#1a130e;--panel:#241a13;--ink:#f6ead9;--muted:#cdb89e;--line:#3d2e22;--court:#4f8a48;--court-deep:#1d3322;--orange:#e88a55;--orange-ink:#f0a878;--dawn:#2a1c12;--dusk:#2d1a10}}
+:root[data-design][data-theme="dark"]{--ground:#1a130e;--panel:#241a13;--ink:#f6ead9;--muted:#cdb89e;--line:#3d2e22;--court:#4f8a48;--court-deep:#1d3322;--orange:#e88a55;--orange-ink:#f0a878;--dawn:#2a1c12;--dusk:#2d1a10}
+/* Morning to evening, down the page */
+body{background:linear-gradient(180deg,var(--dawn) 0,var(--ground) 28%,var(--ground) 70%,var(--dusk) 100%)}
+h1,h2,h3{font-weight:400;font-stretch:normal;letter-spacing:0}
+h2{font-size:clamp(2.4rem,6vw,4.2rem);line-height:1}
+h2::first-line{font-style:italic}
+.eyebrow{font-family:var(--body);font-weight:600;letter-spacing:.16em;font-size:.76rem}
+.topbar{background:color-mix(in srgb,var(--panel) 88%,transparent);backdrop-filter:blur(8px)}
+.topbar .brand{font-size:1.35rem;font-weight:400;font-style:italic}
+/* The photograph is the hero, the words sit in its sky */
+.hero .wrap{grid-template-columns:minmax(0,560px) 1fr;align-items:start;padding-block:48px 64px;min-height:clamp(520px,78vw,760px)}
+.hero-copy{grid-column:1}
+.hero img{object-position:62% 30%}
+@media (max-width:760px){.hero img{object-position:78% 20%}}
+.hero::after{background:linear-gradient(180deg,rgba(40,22,8,.72) 0%,rgba(40,22,8,.35) 42%,rgba(40,22,8,.05) 70%,rgba(40,22,8,.5) 100%)}
+.hero h1{font-weight:400;text-transform:none;font-size:clamp(3.4rem,11vw,7.4rem);line-height:.9;letter-spacing:-.01em}
+.hero h1 span{font-style:italic;color:#ffd79a}
+.hero .where{font-family:var(--body);letter-spacing:.14em}
+.btn{font-weight:600}
+.btn-orange{color:#1d0d02}
+@media (max-width:760px){.hero .wrap{grid-template-columns:1fr;padding-top:28px}.hero::after{background:linear-gradient(180deg,rgba(40,22,8,.8) 0%,rgba(40,22,8,.45) 50%,rgba(40,22,8,.2) 100%)}}
+.about .bio{font-size:1.2rem;line-height:1.65}
+.principles{border-top:1px solid var(--ink)}
+.principles i{font-family:var(--display);font-style:italic;font-size:1.6rem;padding-top:0;line-height:1}
+.principles h3{font-size:1.6rem}
+.facts span{font-family:var(--body);border-radius:999px}
+/* Court lab: the green of the grove */
+.lab{background:radial-gradient(ellipse at 80% 0,#3c6a39 0,var(--court-deep) 60%)}
+.court-frame{background:#173020;border-radius:18px}
+.shots button{font-family:var(--body);font-weight:600}
+.shot-card h3{text-transform:none;font-size:clamp(2.6rem,6vw,3.8rem);font-style:italic}
+/* Photographs full-bleed, one after another */
+.strip{gap:6px}
+.strip figure{border-radius:0}
+.strip figcaption{font-family:var(--display);font-style:italic;font-size:1.15rem}
+@media (min-width:761px){.strip .a,.strip .d{grid-column:span 12}.strip .b,.strip .c{grid-column:span 6}.strip .a img,.strip .d img{aspect-ratio:21/9}}
+.prog{border-radius:14px;border-top:0;box-shadow:inset 0 6px 0 var(--c)}
+.prog h3{font-size:1.7rem}
+.week,.request,.q{border-radius:14px}
+.week .col-h{font-size:1.3rem}
+.ladder b{font-style:italic;font-weight:400;font-size:1.9rem}
+.result{border-radius:14px}
+.result h3{font-size:2.1rem;font-weight:400}
+.week-list h3{font-weight:400;font-style:italic;font-size:1.8rem}
+.week-list .row button{border-radius:12px}
+.bio summary{font-family:var(--display);font-style:italic;font-size:1.25rem;font-weight:400}
