@@ -1,0 +1,48 @@
+/* Design 3, Court Lines (design.c): the court is the grid. Every section sits in a frame drawn as court lines,
+   which draw themselves as the section scrolls in (CSS only, off for reduced motion). Space Grotesk and IBM Plex Mono. */
+:root[data-design]{--surface:#2457a8;--ground:#f4f7fb;--panel:#fff;--ink:#0d2448;--muted:#3f5577;--line:#c3d1e6;--frame:#1b4f9c;--court:#1b4f9c;--court-deep:#0d2c5a;
+  --orange:#ff9a52;--orange-ink:#1b4f9c;--sun:#ffd23f;--chalk:#fff;
+  --display:"Space Grotesk",system-ui,sans-serif;--body:"Space Grotesk",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root[data-design]:not([data-theme="light"]){--ground:#06142b;--panel:#0b1f40;--ink:#e6eefb;--muted:#a9bcd9;--line:#2a4a78;--frame:#8fb4ee;--court:#2a66c4;--court-deep:#081a36;--orange-ink:#ffc08f}}
+:root[data-design][data-theme="dark"]{--ground:#06142b;--panel:#0b1f40;--ink:#e6eefb;--muted:#a9bcd9;--line:#2a4a78;--frame:#8fb4ee;--court:#2a66c4;--court-deep:#081a36;--orange-ink:#ffc08f}
+h1,h2,h3{font-stretch:normal;letter-spacing:-.02em}
+h2{font-weight:700;font-size:clamp(2rem,5vw,3.2rem)}
+.eyebrow{font-weight:500}
+.topbar .brand{font-weight:700;letter-spacing:-.01em}
+.hero h1{font-weight:700;text-transform:none;letter-spacing:-.04em;font-size:clamp(3rem,10vw,6.4rem);line-height:.88}
+.hero::after{background:linear-gradient(90deg,rgba(6,20,43,.15) 0%,rgba(6,20,43,.5) 45%,rgba(6,20,43,.9) 100%)}
+@media (max-width:760px){.hero::after{background:linear-gradient(180deg,rgba(6,20,43,.1) 0%,rgba(6,20,43,.55) 40%,rgba(6,20,43,.94) 100%)}}
+.btn{border-radius:2px}
+/* The frame: the glass walls as the border, the net as a short mark at the top centre, the service lines as corner ticks. */
+main>section>.wrap{position:relative;padding-block:clamp(20px,3vw,36px)}
+main>section{padding-block:clamp(24px,4vw,48px)}
+main>section>.wrap::before{content:"";position:absolute;inset:0 max(4px,calc(env(safe-area-inset-left,0px)));border:2px solid var(--frame);pointer-events:none;
+  background:linear-gradient(var(--frame),var(--frame)) 50% 0/2px 22px no-repeat,linear-gradient(var(--frame),var(--frame)) 50% 100%/2px 22px no-repeat,
+  linear-gradient(var(--frame),var(--frame)) 15% 0/2px 12px no-repeat,linear-gradient(var(--frame),var(--frame)) 85% 0/2px 12px no-repeat,
+  linear-gradient(var(--frame),var(--frame)) 15% 100%/2px 12px no-repeat,linear-gradient(var(--frame),var(--frame)) 85% 100%/2px 12px no-repeat}
+main>section>.wrap>*{position:relative}
+main>section>.wrap{padding-inline:clamp(20px,3vw,40px)}
+@media (max-width:560px){main>section>.wrap{padding-inline:20px;margin-inline:8px}}
+@supports (animation-timeline:view()){@media (prefers-reduced-motion:no-preference){
+  main>section>.wrap::before{animation:draw linear both;animation-timeline:view();animation-range:entry 0% entry 70%}
+}}
+@keyframes draw{from{clip-path:inset(0 100% 100% 0)}to{clip-path:inset(0 0 0 0)}}
+.lab{--frame:#8fb4ee}
+.lab{background:var(--court-deep)}
+.court-frame{background:transparent;border:1px solid #3d64a3;border-radius:0}
+.shots button{border-radius:2px;font-family:var(--mono);font-weight:500;font-size:.9rem}
+.shot-card h3{text-transform:none;letter-spacing:-.03em;font-size:clamp(2.4rem,6vw,3.4rem);font-weight:700}
+.replay{border-radius:2px}
+.principles{border-top:2px solid var(--frame)}
+.principles h3{font-weight:700}
+.prog{border-radius:0;border:1px solid var(--line);border-top:4px solid var(--c)}
+.prog h3{font-weight:700}
+.strip figure{border-radius:0}
+.week,.request,.q,.result{border-radius:0}
+/* The level finder as a tactics board: a faint court grid behind the ladder. */
+.finder .ladder{background:linear-gradient(var(--line) 1px,transparent 1px) 0 0/100% 33.33%,linear-gradient(90deg,var(--line) 1px,transparent 1px) 0 0/50% 100%;border:2px solid var(--frame);padding:10px}
+.ladder div{background:var(--panel)}
+.ladder div.on{background:var(--ink);color:var(--ground)}
+.ladder b{font-family:var(--mono);font-weight:600}
+.result h3{font-weight:700}
+.week-list .row button{border-radius:0}

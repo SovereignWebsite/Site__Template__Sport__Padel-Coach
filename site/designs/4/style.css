@@ -1,0 +1,55 @@
+/* Design 4, Club Poster (design.c): a bold Portuguese club poster. Archivo at its widest and narrowest, flat colour,
+   our own tile border (not a copy of any real azulejo), big level numbers, and both languages on every heading. */
+:root[data-design]{--surface:#1f4fa3;--ground:#fff7e8;--panel:#fff;--ink:#10233f;--muted:#4a5568;--line:#e3d6bd;--court:#1f4fa3;--court-deep:#12316b;
+  --orange:#f4a300;--orange-ink:#b3261e;--sun:#f4a300;--chalk:#fff;
+  --display:"Archivo",system-ui,sans-serif;--body:"Archivo",system-ui,sans-serif;--mono:"Archivo",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root[data-design]:not([data-theme="light"]){--ground:#0c1424;--panel:#13203a;--ink:#f5ecd8;--muted:#bdb5a3;--line:#2a3a5c;--court:#3d6fd0;--court-deep:#0f2551;--orange-ink:#ff9a8c}}
+:root[data-design][data-theme="dark"]{--ground:#0c1424;--panel:#13203a;--ink:#f5ecd8;--muted:#bdb5a3;--line:#2a3a5c;--court:#3d6fd0;--court-deep:#0f2551;--orange-ink:#ff9a8c}
+body{font-stretch:100%}
+h2{font-weight:900;font-stretch:62%;text-transform:uppercase;font-size:clamp(2.6rem,8vw,5rem);line-height:.9;letter-spacing:0}
+h3{font-stretch:100%}
+.eyebrow{font-weight:800;font-stretch:125%;letter-spacing:.08em}
+/* Both languages: the other one sits under each heading, smaller, and is not read twice by a screen reader. */
+html[lang^="en"] h2[data-pt]::after{content:attr(data-pt) / "";display:block;margin-top:.35em;font-size:.42em;font-stretch:125%;font-weight:600;line-height:1.2;text-transform:none;color:var(--orange-ink)}
+html[lang^="pt"] h2[data-en]::after{content:attr(data-en) / "";display:block;margin-top:.35em;font-size:.42em;font-stretch:125%;font-weight:600;line-height:1.2;text-transform:none;color:var(--orange-ink)}
+.lab h2::after{color:var(--sun)!important}
+/* The tile border along the top of every section */
+main>section{background-image:url("/designs/4/tile.svg");background-repeat:repeat-x;background-size:28px 28px;padding-top:calc(clamp(56px,8vw,96px) + 12px)}
+.topbar{border-bottom:4px solid var(--court)}
+.topbar .brand{font-weight:900;font-stretch:125%;text-transform:uppercase;letter-spacing:.02em}
+.hero{background:var(--court)}
+.hero::after{background:linear-gradient(90deg,rgba(18,49,107,0) 0%,rgba(18,49,107,.55) 45%,rgba(18,49,107,.95) 100%)}
+@media (max-width:760px){.hero::after{background:linear-gradient(180deg,rgba(18,49,107,0) 0%,rgba(18,49,107,.6) 40%,rgba(18,49,107,.96) 100%)}}
+.hero h1{font-weight:900;font-stretch:62%;font-size:clamp(4rem,15vw,9rem);line-height:.8}
+.hero h1 span{color:var(--sun)}
+.btn{border-radius:0;font-weight:800;font-stretch:115%;text-transform:uppercase;letter-spacing:.03em}
+.btn-orange{color:#10233f}
+.principles{border-top:6px solid var(--orange-ink)}
+.principles i{font-weight:900;font-size:1.8rem;color:var(--orange-ink);line-height:1;padding-top:0}
+.principles h3{font-weight:800}
+.lab{background:var(--court-deep)}
+.court-frame{border-radius:0;border:6px solid var(--sun);background:#0b2350}
+.shots button{border-radius:0;font-stretch:115%;text-transform:uppercase}
+.shot-card h3{font-stretch:62%;font-size:clamp(3rem,8vw,4.6rem)}
+.replay{border-radius:0}
+.prog{border-radius:0;border:3px solid var(--ink);border-top:12px solid var(--c);box-shadow:6px 6px 0 var(--ink)}
+.prog h3{font-weight:900;font-stretch:80%;text-transform:uppercase;font-size:1.6rem}
+.strip figure{border-radius:0;border:3px solid var(--ink)}
+.week,.request,.q{border-radius:0;border-width:2px;border-color:var(--ink)}
+.week .col-h{font-weight:900;font-stretch:80%;text-transform:uppercase}
+.slot{border-radius:0}
+.chips button{border-radius:0}
+/* Big level numbers */
+.ladder b{font-weight:900;font-stretch:62%;font-size:2.6rem;line-height:1;color:var(--court)}
+.ladder div{grid-template-columns:2.6rem 1fr;align-items:center}
+.ladder div.on{background:var(--court);color:#fff}
+.ladder div.on b{color:var(--sun)}
+.result{border-radius:0;box-shadow:8px 8px 0 var(--orange)}
+.result h3{font-stretch:62%;font-size:2.4rem;text-transform:uppercase}
+/* The base sets font-stretch:normal!important on headings; the poster needs Archivo's width axis back. */
+h2,.hero h1,.shot-card h3,.result h3{font-stretch:62%!important}
+.prog h3,.week .col-h,.week-list h3{font-stretch:80%!important}
+.topbar .brand,.eyebrow{font-stretch:125%!important}
+.week-list .row button{border-radius:0;border:2px solid var(--ink);border-left:8px solid var(--c)}
+.week-list h3{font-weight:900;text-transform:uppercase}
+@media (max-width:420px){.topbar .brand{font-stretch:100%!important;font-size:.95rem}}

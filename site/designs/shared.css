@@ -1,0 +1,68 @@
+/* Shared by the five padel designs (design.c): the fonts, the one-button design picker, the chooser page,
+   and what every design agrees on: a bigger court lab and 44 px touch targets.
+   Barlow Condensed 800 comes from the base (/assets/extra.css). Every font is SIL Open Font License 1.1, served from this site (licences in /assets/fonts/). No font service. */
+@font-face{font-family:"Barlow Condensed";src:url("/assets/fonts/barlow-condensed-500.woff2") format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Barlow Condensed";src:url("/assets/fonts/barlow-condensed-700.woff2") format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Instrument Serif";src:url("/assets/fonts/instrument-serif.woff2") format("woff2");font-weight:400 900;font-display:swap}
+@font-face{font-family:"Instrument Serif";src:url("/assets/fonts/instrument-serif-italic.woff2") format("woff2");font-weight:400 900;font-style:italic;font-display:swap}
+@font-face{font-family:"Space Grotesk";src:url("/assets/fonts/space-grotesk.woff2") format("woff2");font-weight:300 700;font-display:swap}
+@font-face{font-family:"IBM Plex Mono";src:url("/assets/fonts/ibm-plex-mono.woff2") format("woff2");font-weight:400 600;font-display:swap}
+@font-face{font-family:"Archivo";src:url("/assets/fonts/archivo.woff2") format("woff2");font-weight:400 900;font-stretch:62% 125%;font-display:swap}
+@font-face{font-family:"Big Shoulders Display";src:url("/assets/fonts/big-shoulders-display.woff2") format("woff2");font-weight:600 900;font-display:swap}
+
+/* The design picker: one small control, closed by default, so the coach leads. */
+.dpick{background:var(--ground);border-bottom:1px solid var(--line);position:relative;z-index:45}
+.dpick .wrap{display:flex;justify-content:flex-end;padding-block:6px}
+.dpick details{position:relative}
+.dpick summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:.5rem;min-height:44px;padding:4px 14px;border:1px solid var(--ink);border-radius:999px;color:var(--ink);background:var(--panel);font:600 .88rem/1.2 var(--body)}
+.dpick summary::-webkit-details-marker{display:none}
+.dpick summary::after{content:"";width:.42rem;height:.42rem;border:solid currentColor;border-width:0 2px 2px 0;transform:rotate(45deg) translateY(-2px)}
+.dpick details[open] summary::after{transform:rotate(-135deg)}
+.dpick .dp-now{font-weight:400;color:var(--muted)}
+.dpick .dp-panel{position:absolute;right:0;top:calc(100% + 6px);width:min(44rem,calc(100vw - 32px));padding:14px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:12px;box-shadow:0 14px 36px rgba(0,0,0,.25)}
+.dpick .dp-panel p{font-size:.9rem;margin:0 0 10px}
+.dpick .dp-panel p a{color:var(--ink)}
+.dpick ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(7.5rem,1fr));gap:10px}
+.dpick li a{display:block;height:100%;padding:6px;border:1px solid var(--line);border-radius:8px;color:var(--ink);text-decoration:none;background:var(--ground)}
+.dpick li a:hover,.dpick li a:focus-visible{outline:2px solid var(--ink);outline-offset:1px}
+.dpick li a[aria-current=page]{border:2px solid var(--ink)}
+.dpick img{display:block;width:100%;height:auto;border-radius:4px;margin-bottom:6px;background:var(--line)}
+.dpick .pn{display:block;font-size:.86rem;font-weight:600;line-height:1.25}
+.dpick .pt{display:block;font-size:.8rem;color:var(--muted)}
+@media print{.dpick{display:none}}
+
+/* The court lab, bigger in every design: the court takes the full width, the shot card sits beside it only on wide screens. */
+[data-design] .court-box{grid-template-columns:1fr;gap:18px}
+[data-design] .court-frame{padding:clamp(6px,2vw,22px);max-width:min(100%,calc((100svh - 120px) * 1.8));margin-inline:auto;width:100%}
+[data-design] .shot-card{grid-auto-flow:row dense;column-gap:clamp(20px,4vw,56px)}
+@media (min-width:760px){[data-design] .shot-card{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr)}
+  [data-design] .shot-card>.eyebrow,[data-design] .shot-card>h3,[data-design] .shot-card>p{grid-column:1}
+  [data-design] .shot-card>.meter,[data-design] .shot-card>.replay,[data-design] .shot-card>.legend{grid-column:2}
+  [data-design] .shot-card>.meter{grid-row:1 / span 2;align-self:start}
+  [data-design] .shot-card>.replay{align-self:start}}
+@media (max-width:560px){[data-design] .lab .wrap{padding-inline:8px}[data-design] .lab-head,[data-design] .shots,[data-design] .shot-card{padding-inline:8px}[data-design] .court-frame{border-radius:6px;padding:4px}}
+/* Each design paints the court in its own colour (the drawing's own fill is the fallback). */
+[data-design] #courtSvg rect[fill="#0f6d6b"]{fill:var(--surface,#0f6d6b)}
+
+/* Touch targets: 44 px for every control a thumb uses. */
+[data-design] .shots button,[data-design] .chips button,[data-design] .replay,[data-design] .q label,[data-design] .topbar .lang button,[data-design] .btn{min-height:44px}
+[data-design] .request input,[data-design] .request select{min-height:44px}
+
+/* The chooser page. */
+.chooser main{padding-block:clamp(28px,5vw,64px)}
+.chooser h1{font-family:var(--display);font-size:clamp(2rem,5vw,3.4rem);line-height:1.05;margin:10px 0 14px}
+.chooser .intro{max-width:60ch;color:var(--muted);font-size:1.05rem}
+.chooser .intro a{color:var(--ink)}
+.chooser .dgrid{list-style:none;margin:28px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,20rem),1fr));gap:18px}
+.chooser .dgrid a{display:grid;gap:8px;color:var(--ink);text-decoration:none;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px}
+.chooser .dgrid a:hover,.chooser .dgrid a:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+.chooser .dgrid img{width:100%;height:auto;border-radius:8px;background:var(--line)}
+.chooser .dgrid h2{font-size:1.35rem;font-stretch:100%}
+.chooser .dgrid h2 span{font:400 .95rem var(--body);color:var(--muted)}
+.chooser .dgrid p{color:var(--muted)}
+
+/* Footer links and the top bar on the narrowest phones. */
+[data-design] footer .foot-links nav{display:flex;flex-wrap:wrap;gap:4px 16px}
+[data-design] footer .foot-links a{display:inline-flex;align-items:center;min-height:32px;margin-right:0}
+@media (max-width:400px){[data-design] .topbar .wrap{flex-wrap:wrap}[data-design] .topbar .brand{white-space:normal}[data-design] .topbar .lang{margin-left:0}}
+.dpick .dp-panel p a{margin-left:.6rem}

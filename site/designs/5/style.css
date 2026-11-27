@@ -1,0 +1,49 @@
+/* Design 5, Night Session (design.c): the floodlit evening court. Dark in every scheme, on purpose: it is the one
+   design that does not follow the light preference. Big Shoulders Display, ball yellow on near black, no glow. */
+:root[data-design],:root[data-design][data-theme]{--surface:#16596f;--ground:#07090c;--panel:#10141b;--ink:#f2f4f0;--muted:#aab1bb;--line:#2a313c;--court:#145c74;--court-deep:#0a0f16;
+  --orange:#e4f24a;--orange-ink:#e4f24a;--sun:#e4f24a;--chalk:#fff;
+  --p1:#4cb3a5;--p2:#8fb2ea;--p3:#f08a43;--p4:#c7a5ee;
+  --display:"Big Shoulders Display","Arial Narrow",system-ui,sans-serif;color-scheme:dark}
+@media (prefers-color-scheme:dark){:root[data-design]:not([data-theme="light"]){--ground:#07090c;--panel:#10141b;--ink:#f2f4f0;--muted:#aab1bb;--line:#2a313c;--court:#145c74;--court-deep:#0a0f16;--orange-ink:#e4f24a;--p1:#4cb3a5;--p2:#8fb2ea;--p3:#f08a43;--p4:#c7a5ee}}
+.slot{color:#07100f}
+h1,h2,h3{text-transform:uppercase;font-stretch:normal;letter-spacing:.01em}
+h2{font-weight:800;font-size:clamp(2.6rem,8vw,4.8rem);line-height:.9}
+.eyebrow{letter-spacing:.2em}
+.topbar{background:#07090c;border-bottom:1px solid var(--line)}
+.topbar .brand{font-size:1.3rem;text-transform:uppercase;color:#f2f4f0}
+.tnav a{color:#f2f4f0}
+.topbar .lang{border-color:#f2f4f0}.topbar .lang button{color:#f2f4f0}
+.topbar .lang button[aria-pressed="true"]{background:var(--sun);color:#07090c}
+.hero{background:#000}
+.hero img{filter:brightness(.78) saturate(.85)}
+.hero::after{background:radial-gradient(ellipse at 75% 0,rgba(0,0,0,0) 0,rgba(0,0,0,.35) 45%),linear-gradient(90deg,rgba(0,0,0,.1) 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.92) 100%)}
+@media (max-width:760px){.hero::after{background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(0,0,0,.6) 40%,rgba(0,0,0,.95) 100%)}}
+.hero h1{font-weight:900;font-size:clamp(3.8rem,14vw,8.4rem);line-height:.82}
+.btn{border-radius:2px;text-transform:uppercase;letter-spacing:.08em;font-weight:700}
+.btn-orange{color:#07090c}
+.btn-ghost{border-color:#f2f4f0}
+.principles{border-top:2px solid var(--sun)}
+.principles i{color:var(--sun)}
+.facts span{border-color:#3a4250}
+/* The lit court: a floodlight falls on the court from above; the lines stay crisp, nothing glows. */
+.lab{background:#05070a;border-block:1px solid var(--line)}
+.court-frame{background:radial-gradient(ellipse at 50% -10%,rgba(255,255,235,.16) 0,rgba(255,255,235,.04) 45%,transparent 70%),#05070a;border:1px solid #2a313c;border-radius:2px}
+.shots button{border-radius:2px;text-transform:uppercase;letter-spacing:.06em}
+.shots button[aria-pressed="true"]{color:#07090c}
+.shot-card h3{font-size:clamp(3rem,8vw,4.4rem)}
+.replay{border-radius:2px}
+.prog{border-radius:2px;border-top:4px solid var(--c);background:var(--panel)}
+.prog h3{font-weight:800;font-size:1.6rem}
+.strip figure{border-radius:2px}
+.strip img{filter:brightness(.85)}
+.week,.request,.q,.result{border-radius:2px}
+.week .col-h{text-transform:uppercase;font-size:1.2rem}
+.ladder b{font-size:2rem;font-weight:900}
+.ladder div.on{background:var(--sun);color:#07090c}
+.ladder div.on b{color:#07090c}
+.result{background:#10141b;border:1px solid var(--sun)}
+.result a{color:var(--sun)}
+footer{background:#000;color:#f2f4f0}
+footer .foot-links a{color:#f2f4f0}
+.week-list h3{font-size:1.8rem}
+.week-list .row button{border-radius:2px}
