@@ -1,0 +1,17 @@
+{
+  "agent": "padel-coach.c@SovereignWebsite.dinis",
+  "session": "https://claude.ai/code/session_01Kw9UwCNs76RhVM5EgPiweB",
+  "status": "active",
+  "fingerprint": "sha256:4676ed861724707d",
+  "signing_fingerprint": "sha256:9bdb3473652f5df2",
+  "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEV9sob0zdef9CJKH7AUKkPjlP4a3O+VJVMVNdz30cSMb/Xa4X5ZR7yhcLej4VgsLFaHQi0e32R/uE1DTWV9amc=",
+  "bundle": {
+    "v": 1,
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA7Dz6/rqEB448ZkWKYzVE\nCXVyVCvi8Q3KMwhlXfadR7jS4Vt1BifES1xoMA3gHOYDJvKnzjhVGLrOGDVpk4Fr\nQUofSSACmgBQKCRIZRrXzi23Dobh1jtdUr9b1pslgTK/gQuQJ/QvFkMkIGStZvZ7\nHBwWMnlOf6VW5OMxjaIDfDdXDVJmDnWJwmmXgiOipRxP+WmguoB5iHelLnCw7ev+\nDN8Ud5pAY/0LiPQqT+/7H3T06mJy5es1DVnBsFM5NV7U/q5+j0MOwn2QzdTYeAaE\nfOlBE5AiqcsKHU5bhJC0LCv2oduVmnkGD+e1+ajIx6lK0uWDDOANlB+Y8X96f09O\nrE1zadm3Vf6Kfj3lk80YKfkPX5sfXiQyWlLiNl4dQduKX6RGnEcFCMNF4iFrDHPX\nMCOnQWk2a8d2YytjPgpLjgD+P5M96pR7ClCqt/IRqTKg9cw4GxYYXSCp+m2/ndy8\nv1XGFnphjmPYy1s3Vy5qYQqBbkE+USh8yaAeazhIzeykpzTEvhpCNtgmWeCewTxv\nFDbteAu9M1gy464VvFQO7JPSDqSRBNCi+/Ed+4yzs8UvtGUrhfHOYNAC/uS1gP9o\n3KGWwf655HhnmeomGlXZwGO9618Uc0XJbZL29oE9CBssOmSTo/4QWvMceu0kgCIb\nPAOJdZN6FEai3CdgU72RbCECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERX2yhvTN15/0IkofsBQqQ+OU/hrc\n75UlUxU13PfRxIxv9drhfllHvKFwt6PhWCwsVodCLR7fZH+4TUNNZX1qZw==\n-----END PUBLIC KEY-----\n",
+    "label": "padel-coach-c-sovereignwebsite",
+    "fingerprint": "sha256:4676ed861724707d",
+    "signing_fingerprint": "sha256:9bdb3473652f5df2"
+  },
+  "how": "Made by the agent in its own session with sgit pki keygen (tools/setup-signing.sh). Only the public half is here. A session key: it ends with its session."
+}
