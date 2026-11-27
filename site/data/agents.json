@@ -3,5 +3,11 @@
  "repository": "https://github.com/SovereignWebsite/Site__Template__Sport__Padel-Coach",
  "made_by": "https://github.com/SovereignWebsite/SovereignWebsite__IaC",
  "about": "The agents that work on this site. Each site agent adds its own entry: its name (role@project.person), its role and its session. Their keys are published at https://agents.sovereignweb.site/.",
- "agents": []
+ "agents": [
+  {
+   "name": "padel-coach.c@SovereignWebsite.dinis",
+   "role": "keeper",
+   "session": "https://claude.ai/code/session_01Kw9UwCNs76RhVM5EgPiweB"
+  }
+ ]
 }

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Padel coach, a fictional example</title>
+<title>Tomás Vilaréu, padel coach (a fictional example)</title>
 <meta name="description" content="A fictional padel coach in the Algarve, made with AI models, showing what a padel coach's own site can do. No real person or club.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Padel coach, a fictional example">
@@ -22,15 +22,6 @@
 <meta name="twitter:image" content="https://padel-coach.sport.template.sovereignweb.site/assets/share/card-1200x630.jpg">
 <link rel="canonical" href="https://padel-coach.sport.template.sovereignweb.site/">
 <style>
-:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#5d5c57;--accent:#2f6b4f;--line:#e4e1d8}
-@media (prefers-color-scheme:dark){:root{--bg:#141513;--fg:#ecebe6;--muted:#a8a69e;--accent:#7fc3a0;--line:#2c2d29}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
-main{max-width:44rem;margin:0 auto;padding:10vh 1rem 4rem}
-.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem}
-.mark{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600}
-h1{font-size:clamp(2rem,6vw,3rem);line-height:1.1;margin:.4rem 0 1rem}
-p{color:var(--muted);margin:0 0 1rem}a{color:var(--accent)}
-footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);font-size:.85rem;color:var(--muted)}
 /* The Sovereign Website credit on a customer's site: one small, muted control at the far top right that opens a
    pop-up menu of the family links. Not a strip and not a menu bar: the site is about its owner (Dinis, 20 November
    2026: "It needs to fundamentally be about the site and who is it about ... top right pop-up menu").
@@ -51,20 +42,14 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);font-si
 .family-credit .family-gap{border-bottom:1px solid rgba(127,127,127,.25);padding-bottom:.3rem;margin-bottom:.3rem}
 [data-family-credit="off"] .family-credit{display:none}
 @media print{.family-credit{display:none}}
-.top{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.5rem;max-width:44rem;margin:0 auto;padding:2.2rem 1rem 0}
-.top .name{font-weight:600;color:var(--fg);text-decoration:none}
-.own{display:flex;gap:1rem;margin-left:auto;font-size:.95rem}
-.own a,.site-links a{color:var(--accent);font-weight:600}
-.site-links{display:flex;flex-wrap:wrap;gap:.25rem 1.25rem;margin-bottom:.8rem;font-size:.95rem}
-@media (max-width:40rem){.own{margin:0;width:100%}}
-h2{font-size:1.25rem;margin:2rem 0 .5rem}ol,ul.plain{color:var(--muted);padding-left:1.2rem}li{margin:.35rem 0}
-pre{background:rgba(127,127,127,.1);padding:.8rem 1rem;border-radius:6px;white-space:pre-wrap;font-size:.9rem;color:var(--fg)}
-code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
-@media (max-width:599px){footer,.family-credit,.family,.site-links{font-size:15px}}
+
 </style>
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/assets/extra.css">
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main" data-t="skip">Skip to content</a>
+<aside aria-label="Site notices">
 <details class="family-credit">
   <summary>Sovereign Website</summary>
   <ul>
@@ -82,26 +67,111 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
     <li><a href="https://newsroom.sgit.ai/">Newsroom</a></li>
   </ul>
 </details>
-<header class="top">
-  <a class="name" href="/">Padel coach, a fictional example</a>
-  <nav class="own" aria-label="This site">
-    <a href="/start/">Start here</a>
-    <a href="/agents/">Use with your AI</a>
-  </nav>
-</header>
+<div class="notice"><div class="wrap">
+  <span class="tag" data-t="demo">DEMO</span><span class="tag" data-t="draft">DRAFT</span>
+  <span data-t="notice"></span>
+</div></div>
+</aside>
+<header class="topbar"><div class="wrap">
+  <a class="brand" href="/" data-t="name">Tomás Vilaréu</a>
+  <nav class="tnav" aria-label="Sections"><a href="#court" data-t="nav_court"></a><a href="#week" data-t="nav_week"></a><a href="#level" data-t="nav_level"></a></nav>
+  <div class="lang" role="group" aria-label="Language / Idioma">
+    <button type="button" data-lang="en" lang="en" aria-pressed="true">English</button>
+    <button type="button" data-lang="pt" lang="pt" aria-pressed="false">Português</button>
+  </div>
+</div></header>
+<section class="hero" data-t-label="name">
+  <img src="/assets/img/p1.jpg" data-t-alt="hero_alt" alt="" width="1376" height="768">
+  <div class="wrap"><div class="hero-copy">
+    <h1>Tomás<span>Vilaréu</span></h1>
+    <p class="lede" data-t="tagline"></p>
+    <p class="where" data-t="where"></p>
+    <div class="cta-row"><a class="btn btn-orange" href="#week" data-t="cta_week"></a><a class="btn btn-ghost" href="#level" data-t="cta_level"></a></div>
+  </div></div>
+</section>
 <main id="main">
-<div class="mark">padel-coach.sport.template.sovereignweb.site</div>
-<h1>Padel coach, a fictional example</h1>
-<p>A fictional padel coach in the Algarve, made with AI models, showing what a padel coach's own site can do. No real person or club.</p>
-<p>This site was made by one request to the Sovereign Website pipeline. Its files, its history and its address are in a repository its owner controls, and can move anywhere.</p>
-<footer>
-<nav class="site-links" aria-label="About this site">
-  <a href="/start/">Start here</a>
-  <a href="/agents/">Use with your AI</a>
-  <a href="/admin/">How this site was made</a>
-  <a href="/policy/">How this site is governed</a>
-</nav>
-A sovereign website, made with the <a href="https://sovereignwebsite.org/">open pattern</a>. Source: <a href="https://github.com/SovereignWebsite/Site__Template__Sport__Padel-Coach">github.com/SovereignWebsite/Site__Template__Sport__Padel-Coach</a>.</footer>
+  <section><div class="wrap about">
+    <div style="display:grid;gap:18px">
+      <p class="eyebrow" data-t="about_eyebrow"></p><h2 data-t="about_h"></h2><p class="bio" data-t="bio"></p>
+      <div class="facts"><span data-t="fact1"></span><span data-t="fact2"></span><span data-t="fact3"></span></div>
+    </div>
+    <div><p class="eyebrow" style="margin-bottom:12px" data-t="how_eyebrow"></p><div class="principles" id="principles"></div></div>
+  </div></section>
+  <section class="lab" id="court"><div class="wrap">
+    <div class="lab-head"><div style="display:grid;gap:12px"><p class="eyebrow" data-t="lab_eyebrow"></p><h2 data-t="lab_h"></h2></div><p data-t="lab_p"></p></div>
+    <div class="shots" role="group" data-t-label="choose_shot" id="shotBtns"></div>
+    <div class="court-box">
+      <div class="court-frame">
+        <svg id="courtSvg" viewBox="0 0 224 124" role="img" aria-labelledby="courtTitle">
+          <title id="courtTitle"></title>
+          <defs><pattern id="mesh" width="2" height="2" patternUnits="userSpaceOnUse"><path d="M0 0L2 2M2 0L0 2" stroke="#9fc9c3" stroke-width=".18" opacity=".55"/></pattern></defs>
+          <g transform="translate(12 12)">
+            <rect x="0" y="0" width="200" height="100" fill="#0f6d6b"/>
+            <g fill="#b9e1e6" opacity=".9"><rect x="-3" y="-3" width="3" height="106"/><rect x="200" y="-3" width="3" height="106"/><rect x="0" y="-3" width="40" height="3"/><rect x="160" y="-3" width="40" height="3"/><rect x="0" y="100" width="40" height="3"/><rect x="160" y="100" width="40" height="3"/></g>
+            <g fill="url(#mesh)"><rect x="40" y="-3" width="120" height="3"/><rect x="40" y="100" width="120" height="3"/></g>
+            <g stroke="#ffffff" stroke-width=".6" fill="none" opacity=".9"><line x1="30.5" y1="0" x2="30.5" y2="100"/><line x1="169.5" y1="0" x2="169.5" y2="100"/><line x1="30.5" y1="50" x2="169.5" y2="50"/></g>
+            <line x1="100" y1="-4" x2="100" y2="104" stroke="#f1f6f4" stroke-width="1.6"/>
+            <line x1="100" y1="-4" x2="100" y2="104" stroke="#0a3b3a" stroke-width=".5" stroke-dasharray="1 1"/>
+            <g font-family="ui-monospace, monospace" font-size="4" fill="#cfe9e4" opacity=".85">
+              <text x="2" y="-5.5" data-t="lbl_glass"></text><text x="82" y="-5.5" data-t="lbl_mesh"></text><text x="103" y="108.5" data-t="lbl_net"></text><text x="2" y="110" data-t="lbl_ours"></text><text x="150" y="110" data-t="lbl_theirs"></text>
+            </g>
+            <path id="trail" d="" fill="none" stroke="#f7c56a" stroke-width="1" stroke-dasharray="2.5 2" opacity=".9"/>
+            <g id="players"></g><g id="marks"></g>
+            <ellipse id="shadow" cx="-50" cy="-50" rx="2" ry="1.2" fill="#000" opacity=".3"/>
+            <circle id="ball" cx="-50" cy="-50" r="1.6" fill="#e4f24a" stroke="#4a5410" stroke-width=".3"/>
+          </g>
+        </svg>
+      </div>
+      <div class="shot-card" aria-live="polite">
+        <p class="eyebrow" id="shotKind"></p><h3 id="shotName"></h3><p id="shotText"></p>
+        <div class="meter"><span data-t="pace"></span><div class="bar"><i id="mPace"></i></div><span data-t="height"></span><div class="bar"><i id="mHeight"></i></div></div>
+        <button class="replay" type="button" id="replay" data-t="replay"></button>
+        <div class="legend">
+          <span><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="#f08a43"/></svg><span data-t="leg_pair"></span></span>
+          <span><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="#f1f6f4"/></svg><span data-t="leg_opp"></span></span>
+          <span><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 3l8 8M11 3l-8 8" stroke="#f7c56a" stroke-width="2"/></svg><span data-t="leg_bounce"></span></span>
+        </div>
+      </div>
+    </div>
+  </div></section>
+  <section><div class="wrap">
+    <div class="day"><div style="display:grid;gap:12px"><p class="eyebrow" data-t="day_eyebrow"></p><h2 data-t="day_h"></h2></div><p data-t="day"></p></div>
+    <div class="strip">
+      <figure class="a"><img src="/assets/img/p2.jpg" data-t-alt="alt2" alt="" loading="lazy" width="1376" height="768"><figcaption data-t="cap1"></figcaption></figure>
+      <figure class="b"><img src="/assets/img/p3.jpg" data-t-alt="alt3" alt="" loading="lazy" width="1376" height="768"><figcaption data-t="cap2"></figcaption></figure>
+      <figure class="c"><img src="/assets/img/p4.jpg" data-t-alt="alt4" alt="" loading="lazy" width="1376" height="768"><figcaption data-t="cap3"></figcaption></figure>
+      <figure class="d"><img src="/assets/img/p5.jpg" data-t-alt="alt5" alt="" loading="lazy" width="1376" height="768"><figcaption data-t="cap4"></figcaption></figure>
+    </div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap"><p class="eyebrow" data-t="prog_eyebrow"></p><h2 style="margin-top:12px" data-t="prog_h"></h2><div class="progs" id="progs"></div></div></section>
+  <section id="week" style="padding-top:0"><div class="wrap">
+    <div class="week-head"><div style="display:grid;gap:12px"><p class="eyebrow" data-t="week_eyebrow"></p><h2 data-t="week_h"></h2></div><div class="chips" role="group" data-t-label="show_prog" id="chips"></div></div>
+    <div class="week-scroll" tabindex="0" role="region" data-t-label="week_h"><div class="week" id="weekGrid"></div></div>
+    <p class="week-note" data-t="week_note"></p>
+    <div class="request" id="request">
+      <div><h3 data-t="ask_h"></h3><p class="picked" id="picked"></p></div>
+      <form id="reqForm">
+        <label for="rName"><span data-t="ask_name"></span><input id="rName" name="name" autocomplete="given-name" required></label>
+        <label for="rLevel"><span data-t="ask_level"></span><select id="rLevel" name="level"></select></label>
+        <label class="full" for="rLang"><span data-t="ask_lang"></span><select id="rLang" name="lang"><option data-t="ask_en"></option><option data-t="ask_pt"></option><option data-t="ask_either"></option></select></label>
+        <button class="btn btn-orange full" type="submit" style="justify-content:center" data-t="ask_btn"></button>
+        <p class="done" id="done" role="status" hidden></p>
+      </form>
+    </div>
+  </div></section>
+  <section id="level" style="padding-top:0"><div class="wrap finder">
+    <div><p class="eyebrow" data-t="lvl_eyebrow"></p><h2 style="margin-top:12px" data-t="lvl_h"></h2><div class="ladder" id="ladder"></div></div>
+    <div class="qs"><form id="quiz" class="qs"></form>
+      <div class="result" aria-live="polite"><p class="eyebrow" data-t="res_eyebrow"></p><h3 id="resLevel"></h3><p id="resText"></p></div></div>
+  </div></section>
 </main>
+<footer>
+  <div class="wrap">
+    <div><h3 data-t="made_h"></h3><p data-t="made_p"></p></div>
+    <div><h3 data-t="add_h"></h3><ul><li data-t="add1"></li><li data-t="add2"></li><li data-t="add3"></li><li data-t="add4"></li></ul></div>
+  </div>
+  <div class="wrap foot-links"><nav aria-label="About this site"><a href="/start/" data-t="links_start"></a> <a href="/agents/" data-t="links_agents"></a> <a href="/admin/" data-t="links_admin"></a> <a href="/policy/" data-t="links_policy"></a> <a href="https://github.com/SovereignWebsite/Site__Template__Sport__Padel-Coach"><span data-t="source"></span> (GitHub)</a></nav></div>
+</footer>
+<script src="/assets/app.js"></script>
 </body>
 </html>

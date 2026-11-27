@@ -1,0 +1,920 @@
+{
+ "ui": {
+  "title": {
+   "en": "Tomás Vilaréu, padel coach (a fictional example)",
+   "pt": "Tomás Vilaréu, treinador de padel (um exemplo fictício)"
+  },
+  "skip": {
+   "en": "Skip to content",
+   "pt": "Saltar para o conteúdo"
+  },
+  "draft": {
+   "en": "DRAFT",
+   "pt": "RASCUNHO"
+  },
+  "demo": {
+   "en": "DEMO",
+   "pt": "DEMO"
+  },
+  "notice": {
+   "en": "A fictional coach. Tomás, his club and every photo here are invented, to show what a padel coach's Sovereign Website can do. This is a first draft. The Portuguese text has not yet been checked by a native reader. A real padel site, like Oscar's, shows only what the coach confirms.",
+   "pt": "Um treinador fictício. O Tomás, o clube e todas as fotografias são inventados, para mostrar o que o Sovereign Website de um treinador de padel pode fazer. Este é um primeiro rascunho. O texto em português ainda não foi revisto por um leitor nativo. Um site de padel real, como o do Oscar, mostra apenas o que o treinador confirma."
+  },
+  "lang_label": {
+   "en": "Language",
+   "pt": "Idioma"
+  },
+  "nav_week": {
+   "en": "Week",
+   "pt": "Semana"
+  },
+  "nav_level": {
+   "en": "Level",
+   "pt": "Nível"
+  },
+  "nav_court": {
+   "en": "Court lab",
+   "pt": "Laboratório"
+  },
+  "name": {
+   "en": "Tomás Vilaréu",
+   "pt": "Tomás Vilaréu"
+  },
+  "tagline": {
+   "en": "Calm coaching, smarter choices, better padel.",
+   "pt": "Treino calmo, decisões inteligentes, melhor padel."
+  },
+  "where": {
+   "en": "Padel coach · near Loulé, Algarve · EN / PT",
+   "pt": "Treinador de padel · perto de Loulé, Algarve · PT / EN"
+  },
+  "cta_week": {
+   "en": "See this week's sessions",
+   "pt": "Ver as sessões da semana"
+  },
+  "cta_level": {
+   "en": "Find your level",
+   "pt": "Descobrir o seu nível"
+  },
+  "hero_alt": {
+   "en": "AI-generated photo: a padel coach in a teal polo holding a black racket inside a glass court, orange groves behind.",
+   "pt": "Fotografia gerada por IA: um treinador de padel de polo azul-petróleo com uma raquete preta num court de vidro, com laranjais ao fundo."
+  },
+  "about_eyebrow": {
+   "en": "About the coach",
+   "pt": "Sobre o treinador"
+  },
+  "about_h": {
+   "en": "Position before power.",
+   "pt": "Posição antes da força."
+  },
+  "bio": {
+   "en": "Tomás Vilaréu is a bilingual padel coach based near Loulé, where he leads sessions at the fictional Clube Padel Brisa do Laranjal. A calm communicator, he coaches in Portuguese and English, helping local players, expats and visitors feel equally welcome on court. Tomás began playing racket sports as a teenager and later focused fully on padel, drawn to its teamwork, angles and quick tactical choices. His sessions combine clear demonstrations, purposeful repetition and plenty of live play. He pays close attention to movement, positioning and decision making before adding speed or power. Whether guiding a complete beginner or an experienced competitor, Tomás sets practical goals, gives direct feedback and keeps the atmosphere friendly, focused and encouraging throughout every lesson for all players.",
+   "pt": "Tomás Vilaréu é um treinador bilingue de padel sediado perto de Loulé, onde orienta sessões no fictício Clube Padel Brisa do Laranjal. Comunica com calma em português e inglês, fazendo com que jogadores locais, residentes estrangeiros e visitantes se sintam bem-vindos. Começou nos desportos de raquete durante a adolescência e mais tarde dedicou-se ao padel, atraído pelo trabalho de equipa, pelos ângulos e pelas decisões rápidas. As suas sessões combinam demonstrações claras, repetição com propósito e situações reais de jogo. Tomás dá prioridade ao movimento, posicionamento e tomada de decisão antes de acrescentar velocidade ou potência. Define objetivos práticos, oferece feedback direto e mantém cada aula acolhedora, concentrada e positiva."
+  },
+  "fact1": {
+   "en": "Coaches in Portuguese and English",
+   "pt": "Treina em português e inglês"
+  },
+  "fact2": {
+   "en": "Clube Padel Brisa do Laranjal (fictional)",
+   "pt": "Clube Padel Brisa do Laranjal (fictício)"
+  },
+  "fact3": {
+   "en": "Locals, expats and visitors",
+   "pt": "Locais, residentes estrangeiros e visitantes"
+  },
+  "how_eyebrow": {
+   "en": "How he coaches",
+   "pt": "Como treina"
+  },
+  "lab_eyebrow": {
+   "en": "The court lab",
+   "pt": "O laboratório do court"
+  },
+  "lab_h": {
+   "en": "Four shots Tomás teaches, played out on the court.",
+   "pt": "Quatro pancadas que o Tomás ensina, jogadas no court."
+  },
+  "lab_p": {
+   "en": "A padel court is 20 by 10 metres, walled with glass at each end, and the walls are part of the game. Pick a shot to see where it is played from, where it goes and how the glass comes in. The ball grows as it rises.",
+   "pt": "Um court de padel mede 20 por 10 metros, com vidro em cada extremo, e as paredes fazem parte do jogo. Escolha uma pancada para ver de onde sai, para onde vai e como entra o vidro. A bola cresce quando sobe."
+  },
+  "choose_shot": {
+   "en": "Choose a shot",
+   "pt": "Escolha uma pancada"
+  },
+  "court_title": {
+   "en": "Top-down padel court, 20 by 10 metres, showing the selected shot's path",
+   "pt": "Court de padel visto de cima, 20 por 10 metros, com o trajecto da pancada escolhida"
+  },
+  "lbl_glass": {
+   "en": "GLASS",
+   "pt": "VIDRO"
+  },
+  "lbl_mesh": {
+   "en": "MESH",
+   "pt": "REDE"
+  },
+  "lbl_net": {
+   "en": "NET",
+   "pt": "REDE"
+  },
+  "lbl_ours": {
+   "en": "Tomás's side",
+   "pt": "Lado do Tomás"
+  },
+  "lbl_theirs": {
+   "en": "Opponents",
+   "pt": "Adversários"
+  },
+  "pace": {
+   "en": "Pace",
+   "pt": "Ritmo"
+  },
+  "height": {
+   "en": "Height",
+   "pt": "Altura"
+  },
+  "replay": {
+   "en": "Play it again",
+   "pt": "Repetir"
+  },
+  "leg_pair": {
+   "en": "Tomás's pair",
+   "pt": "A dupla do Tomás"
+  },
+  "leg_opp": {
+   "en": "Opponents",
+   "pt": "Adversários"
+  },
+  "leg_bounce": {
+   "en": "Bounce or glass",
+   "pt": "Ressalto ou vidro"
+  },
+  "day_eyebrow": {
+   "en": "A day at the club",
+   "pt": "Um dia no clube"
+  },
+  "day_h": {
+   "en": "Orange groves, Atlantic light, an afternoon wind.",
+   "pt": "Laranjais, luz atlântica, um vento de tarde."
+  },
+  "day": {
+   "en": "Tomás arrives early, while Atlantic light spills across the courts and the orange groves beyond the fence still hold the morning cool. He checks the nets, sets out cones and welcomes the first players in Portuguese and English. Between sessions, he reviews notes beneath the shaded terrace and plans simple tactical challenges. By late afternoon, wind moves through the club and changes the ball’s flight. Evening groups practise adapting together, then finish with relaxed points as the sky turns gold.",
+   "pt": "O Tomás chega cedo, quando a luz atlântica se espalha pelos courts e os laranjais para lá da vedação ainda guardam o fresco da manhã. Verifica as redes, coloca os cones e recebe os primeiros jogadores em português e inglês. Entre sessões, revê notas no terraço sombreado e prepara desafios tácticos simples. Ao fim da tarde, o vento passa pelo clube e muda o voo da bola. Os grupos da noite treinam a adaptar-se em conjunto e terminam com pontos descontraídos enquanto o céu se torna dourado."
+  },
+  "cap1": {
+   "en": "Low and early: the ready position, before anything else.",
+   "pt": "Baixo e cedo: a posição de espera, antes de tudo."
+  },
+  "cap2": {
+   "en": "Group sessions run in Portuguese and English.",
+   "pt": "As sessões de grupo decorrem em português e inglês."
+  },
+  "cap3": {
+   "en": "The fictional club, set in an old orange grove.",
+   "pt": "O clube fictício, num velho laranjal."
+  },
+  "cap4": {
+   "en": "Evening points, when the light turns gold.",
+   "pt": "Pontos ao fim do dia, quando a luz fica dourada."
+  },
+  "alt2": {
+   "en": "AI-generated photo: the coach in a low ready position on a glass court among orange trees.",
+   "pt": "Fotografia gerada por IA: o treinador em posição de espera baixa num court de vidro entre laranjeiras."
+  },
+  "alt3": {
+   "en": "AI-generated photo: the coach talking to a small group of adult players beside the court.",
+   "pt": "Fotografia gerada por IA: o treinador a falar com um pequeno grupo de jogadores adultos junto ao court."
+  },
+  "alt4": {
+   "en": "AI-generated photo: the coach walking past orange trees towards a glass padel court with a ball basket.",
+   "pt": "Fotografia gerada por IA: o treinador a caminhar entre laranjeiras para um court de vidro com um cesto de bolas."
+  },
+  "alt5": {
+   "en": "AI-generated photo: the coach at the net watching an evening point in golden light.",
+   "pt": "Fotografia gerada por IA: o treinador junto à rede a ver um ponto ao fim do dia, em luz dourada."
+  },
+  "prog_eyebrow": {
+   "en": "Programmes",
+   "pt": "Programas"
+  },
+  "prog_h": {
+   "en": "Four ways onto court.",
+   "pt": "Quatro formas de entrar em campo."
+  },
+  "p_length": {
+   "en": "Length",
+   "pt": "Duração"
+  },
+  "p_group": {
+   "en": "Group",
+   "pt": "Grupo"
+  },
+  "p_levels": {
+   "en": "Levels",
+   "pt": "Níveis"
+  },
+  "p_players": {
+   "en": "players",
+   "pt": "jogadores"
+  },
+  "p_any": {
+   "en": "Any",
+   "pt": "Qualquer"
+  },
+  "p_min": {
+   "en": "min",
+   "pt": "min"
+  },
+  "week_eyebrow": {
+   "en": "This week",
+   "pt": "Esta semana"
+  },
+  "week_h": {
+   "en": "Mornings and evenings, never at midday.",
+   "pt": "Manhãs e fins de tarde, nunca ao meio-dia."
+  },
+  "show_prog": {
+   "en": "Show programmes",
+   "pt": "Mostrar programas"
+  },
+  "to": {
+   "en": "to",
+   "pt": "às"
+  },
+  "heat": {
+   "en": "Midday heat: no sessions",
+   "pt": "Calor do meio-dia: sem sessões"
+  },
+  "week_note": {
+   "en": "Sessions run in the cooler mornings and evenings. Midday is avoided in the Algarve summer heat. Prices and booking terms would be set by the coach.",
+   "pt": "As sessões decorrem nas manhãs e fins de tarde mais frescos. O meio-dia evita-se no calor do verão algarvio. Os preços e as condições de reserva seriam definidos pelo treinador."
+  },
+  "ask_h": {
+   "en": "Ask for a place",
+   "pt": "Peça um lugar"
+  },
+  "ask_pick": {
+   "en": "Pick a session in the week above.",
+   "pt": "Escolha uma sessão na semana acima."
+  },
+  "ask_name": {
+   "en": "Your first name",
+   "pt": "O seu primeiro nome"
+  },
+  "ask_level": {
+   "en": "Your level",
+   "pt": "O seu nível"
+  },
+  "ask_lang": {
+   "en": "Session language",
+   "pt": "Idioma da sessão"
+  },
+  "ask_en": {
+   "en": "English",
+   "pt": "Inglês"
+  },
+  "ask_pt": {
+   "en": "Português",
+   "pt": "Português"
+  },
+  "ask_either": {
+   "en": "Either",
+   "pt": "Qualquer um"
+  },
+  "ask_btn": {
+   "en": "Ask for this place",
+   "pt": "Pedir este lugar"
+  },
+  "ask_done": {
+   "en": "Thanks, {name}. In a real coach's site this would ask for {day} {time}, {prog}. This is a demo, so nothing was sent.",
+   "pt": "Obrigado, {name}. Num site de treinador real, isto pediria {day} às {time}, {prog}. Isto é uma demonstração, por isso nada foi enviado."
+  },
+  "ask_first": {
+   "en": "Pick a session in the week above first, {name}.",
+   "pt": "Escolha primeiro uma sessão na semana acima, {name}."
+  },
+  "picked": {
+   "en": "{prog}, {group} players, levels {levels}.",
+   "pt": "{prog}, {group} jogadores, níveis {levels}."
+  },
+  "lvl_eyebrow": {
+   "en": "Find your level",
+   "pt": "Descubra o seu nível"
+  },
+  "lvl_h": {
+   "en": "Where are you on the 1 to 7 scale?",
+   "pt": "Onde está na escala de 1 a 7?"
+  },
+  "res_eyebrow": {
+   "en": "Your estimate",
+   "pt": "A sua estimativa"
+  },
+  "res_level": {
+   "en": "Level {n}, {name}",
+   "pt": "Nível {n}, {name}"
+  },
+  "res_text": {
+   "en": "Start with <strong>{prog}</strong> ({length}, {group} players). Visiting the Algarve? The <strong>{visit}</strong> takes any level. <a href=\"#week\">See the week</a>.",
+   "pt": "Comece com <strong>{prog}</strong> ({length}, {group} jogadores). De visita ao Algarve? A <strong>{visit}</strong> aceita qualquer nível. <a href=\"#week\">Ver a semana</a>."
+  },
+  "made_h": {
+   "en": "How this demo was made",
+   "pt": "Como esta demonstração foi feita"
+  },
+  "made_p": {
+   "en": "The persona, programmes, timetable and wording were written by a language model (openai/gpt-5.6-sol) and the five photos made by an image model (google/gemini-3-pro-image), both through OpenRouter, then edited and built into this page by the agents of the Sovereign Website team. No real person, club, review or price is shown. A real coach's site is made only from a copy, with that coach's agreement and from their own facts.",
+   "pt": "A personagem, os programas, o horário e os textos foram escritos por um modelo de linguagem (openai/gpt-5.6-sol) e as cinco fotografias criadas por um modelo de imagem (google/gemini-3-pro-image), ambos através do OpenRouter, e depois editados e montados nesta página pelos agentes da equipa Sovereign Website. Nenhuma pessoa, clube, opinião ou preço reais são mostrados. O site de um treinador real parte de uma cópia, com o acordo desse treinador e a partir dos factos dele."
+  },
+  "add_h": {
+   "en": "What a real coach's site can add",
+   "pt": "O que o site de um treinador real pode acrescentar"
+  },
+  "add1": {
+   "en": "Their own photos, words and timetable",
+   "pt": "As suas próprias fotografias, textos e horário"
+  },
+  "add2": {
+   "en": "Sessions in their own languages",
+   "pt": "Sessões nas suas línguas"
+  },
+  "add3": {
+   "en": "Booking and payments, when the coach decides",
+   "pt": "Reservas e pagamentos, quando o treinador decidir"
+  },
+  "add4": {
+   "en": "Its own address under padel.sport.sovereignweb.site",
+   "pt": "O seu próprio endereço em padel.sport.sovereignweb.site"
+  },
+  "links_start": {
+   "en": "Start here",
+   "pt": "Comece aqui"
+  },
+  "links_agents": {
+   "en": "Use with your AI",
+   "pt": "Use com a sua IA"
+  },
+  "links_admin": {
+   "en": "How this site was made",
+   "pt": "Como este site foi feito"
+  },
+  "links_policy": {
+   "en": "How this site is governed",
+   "pt": "Como este site é governado"
+  },
+  "source": {
+   "en": "Source",
+   "pt": "Código"
+  }
+ },
+ "philosophy": [
+  {
+   "h": {
+    "en": "Position before power",
+    "pt": "Posição antes da força"
+   },
+   "p": {
+    "en": "Good court position creates easier shots and fewer rushed decisions.",
+    "pt": "Uma boa posição no court cria pancadas mais fáceis e decisões menos precipitadas."
+   }
+  },
+  {
+   "h": {
+    "en": "Train with a purpose",
+    "pt": "Treinar com propósito"
+   },
+   "p": {
+    "en": "Every drill should connect clearly to a real match situation.",
+    "pt": "Cada exercício deve ligar-se claramente a uma situação real de jogo."
+   }
+  },
+  {
+   "h": {
+    "en": "Play the next ball",
+    "pt": "Jogar a bola seguinte"
+   },
+   "p": {
+    "en": "Recover quickly, stay composed and prepare for what follows.",
+    "pt": "Recupere depressa, mantenha a calma e prepare o que vem a seguir."
+   }
+  }
+ ],
+ "programmes": {
+  "P1": {
+   "title": {
+    "en": "Padel Foundations",
+    "pt": "Bases do Padel"
+   },
+   "for": {
+    "en": "Complete beginners and players returning after a long break",
+    "pt": "Principiantes e jogadores que regressam após uma longa pausa"
+   },
+   "levels": {
+    "en": "1 to 2",
+    "pt": "1 a 2"
+   },
+   "focus": {
+    "en": [
+     "Grip and ready position",
+     "Simple forehands and backhands",
+     "Using the back glass safely",
+     "Scoring, positioning and teamwork"
+    ],
+    "pt": [
+     "Pega e posição de espera",
+     "Direitas e esquerdas simples",
+     "Usar o vidro de fundo em segurança",
+     "Pontuação, posicionamento e trabalho de equipa"
+    ]
+   },
+   "minutes": 60,
+   "group": {
+    "en": "2 to 4",
+    "pt": "2 a 4"
+   }
+  },
+  "P2": {
+   "title": {
+    "en": "Build Your Game",
+    "pt": "Construa o Seu Jogo"
+   },
+   "for": {
+    "en": "Improving players at levels 2 to 4",
+    "pt": "Jogadores em evolução, níveis 2 a 4"
+   },
+   "levels": {
+    "en": "2 to 4",
+    "pt": "2 a 4"
+   },
+   "focus": {
+    "en": [
+     "Consistent rally patterns",
+     "Net movement and recovery",
+     "Lobs and controlled volleys",
+     "Choosing high-percentage shots"
+    ],
+    "pt": [
+     "Padrões de troca consistentes",
+     "Movimento na rede e recuperação",
+     "Lobs e voleios controlados",
+     "Escolher as pancadas mais seguras"
+    ]
+   },
+   "minutes": 75,
+   "group": {
+    "en": "2 to 4",
+    "pt": "2 a 4"
+   }
+  },
+  "P3": {
+   "title": {
+    "en": "Tactical Match Lab",
+    "pt": "Laboratório Táctico de Jogo"
+   },
+   "for": {
+    "en": "Confident intermediate and advanced players",
+    "pt": "Jogadores intermédios e avançados confiantes"
+   },
+   "levels": {
+    "en": "4 to 7",
+    "pt": "4 a 7"
+   },
+   "focus": {
+    "en": [
+     "Pair movement and communication",
+     "Building and defending the net",
+     "Reading opponents",
+     "Pressure points and match scenarios"
+    ],
+    "pt": [
+     "Movimento e comunicação da dupla",
+     "Construir e defender a rede",
+     "Ler os adversários",
+     "Pontos de pressão e cenários de jogo"
+    ]
+   },
+   "minutes": 90,
+   "group": {
+    "en": "4",
+    "pt": "4"
+   }
+  },
+  "P4": {
+   "title": {
+    "en": "Algarve Visitor Session",
+    "pt": "Sessão para Visitantes do Algarve"
+   },
+   "for": {
+    "en": "Visitors, expats and mixed-level groups",
+    "pt": "Visitantes, residentes estrangeiros e grupos de níveis mistos"
+   },
+   "levels": {
+    "en": "Any",
+    "pt": "Qualquer"
+   },
+   "focus": {
+    "en": [
+     "A quick level check",
+     "Technical corrections",
+     "Local court and wind conditions",
+     "Guided points with feedback"
+    ],
+    "pt": [
+     "Uma avaliação rápida de nível",
+     "Correcções técnicas",
+     "Condições locais do court e do vento",
+     "Pontos orientados com feedback"
+    ]
+   },
+   "minutes": 60,
+   "group": {
+    "en": "1 to 4",
+    "pt": "1 a 4"
+   }
+  }
+ },
+ "week": {
+  "Mon": [
+   {
+    "time": "07:30",
+    "programme": "P1"
+   },
+   {
+    "time": "18:30",
+    "programme": "P2"
+   }
+  ],
+  "Tue": [
+   {
+    "time": "08:00",
+    "programme": "P4"
+   },
+   {
+    "time": "19:00",
+    "programme": "P3"
+   }
+  ],
+  "Wed": [
+   {
+    "time": "07:30",
+    "programme": "P2"
+   },
+   {
+    "time": "18:30",
+    "programme": "P1"
+   }
+  ],
+  "Thu": [
+   {
+    "time": "08:00",
+    "programme": "P4"
+   },
+   {
+    "time": "19:00",
+    "programme": "P3"
+   }
+  ],
+  "Fri": [
+   {
+    "time": "07:30",
+    "programme": "P2"
+   },
+   {
+    "time": "18:30",
+    "programme": "P4"
+   }
+  ],
+  "Sat": [
+   {
+    "time": "08:00",
+    "programme": "P1"
+   },
+   {
+    "time": "18:00",
+    "programme": "P3"
+   }
+  ],
+  "Sun": [
+   {
+    "time": "08:30",
+    "programme": "P4"
+   },
+   {
+    "time": "18:30",
+    "programme": "P2"
+   }
+  ]
+ },
+ "days": {
+  "Mon": {
+   "en": "Monday",
+   "pt": "Segunda"
+  },
+  "Tue": {
+   "en": "Tuesday",
+   "pt": "Terça"
+  },
+  "Wed": {
+   "en": "Wednesday",
+   "pt": "Quarta"
+  },
+  "Thu": {
+   "en": "Thursday",
+   "pt": "Quinta"
+  },
+  "Fri": {
+   "en": "Friday",
+   "pt": "Sexta"
+  },
+  "Sat": {
+   "en": "Saturday",
+   "pt": "Sábado"
+  },
+  "Sun": {
+   "en": "Sunday",
+   "pt": "Domingo"
+  }
+ },
+ "levels": [
+  {
+   "name": {
+    "en": "First Steps",
+    "pt": "Primeiros Passos"
+   },
+   "text": {
+    "en": "Learning the rules, basic strokes and safe court movement.",
+    "pt": "A aprender as regras, as pancadas básicas e o movimento seguro no court."
+   }
+  },
+  {
+   "name": {
+    "en": "Developing Beginner",
+    "pt": "Iniciante em Evolução"
+   },
+   "text": {
+    "en": "Rallying at a gentle pace and starting to use the glass.",
+    "pt": "A trocar bolas a ritmo suave e a começar a usar o vidro."
+   }
+  },
+  {
+   "name": {
+    "en": "Improving Player",
+    "pt": "Jogador em Progresso"
+   },
+   "text": {
+    "en": "Sustaining rallies, basic positioning, coming to the net with purpose.",
+    "pt": "A sustentar trocas, posicionamento básico, a subir à rede com intenção."
+   }
+  },
+  {
+   "name": {
+    "en": "Club Intermediate",
+    "pt": "Intermédio de Clube"
+   },
+   "text": {
+    "en": "Using lobs, volleys and simple tactics with growing consistency.",
+    "pt": "A usar lobs, voleios e tácticas simples com consistência crescente."
+   }
+  },
+  {
+   "name": {
+    "en": "Strong Intermediate",
+    "pt": "Intermédio Forte"
+   },
+   "text": {
+    "en": "Controlling tempo, defending with the glass, building points as a pair.",
+    "pt": "A controlar o ritmo, defender com o vidro, construir pontos em dupla."
+   }
+  },
+  {
+   "name": {
+    "en": "Advanced",
+    "pt": "Avançado"
+   },
+   "text": {
+    "en": "Handling pressure, varying attacking shots, exploiting tactical weaknesses.",
+    "pt": "A gerir a pressão, variar pancadas de ataque, explorar fraquezas tácticas."
+   }
+  },
+  {
+   "name": {
+    "en": "Competition",
+    "pt": "Competição"
+   },
+   "text": {
+    "en": "Fast, disciplined padel with advanced technique and reliable match strategy.",
+    "pt": "Padel rápido e disciplinado, com técnica avançada e estratégia de jogo fiável."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "en": "How long have you played padel (or another racket sport)?",
+    "pt": "Há quanto tempo joga padel (ou outro desporto de raquete)?"
+   },
+   "options": [
+    {
+     "label": {
+      "en": "Just starting",
+      "pt": "A começar"
+     },
+     "v": 1
+    },
+    {
+     "label": {
+      "en": "Under a year",
+      "pt": "Menos de um ano"
+     },
+     "v": 2
+    },
+    {
+     "label": {
+      "en": "1 to 3 years",
+      "pt": "1 a 3 anos"
+     },
+     "v": 4
+    },
+    {
+     "label": {
+      "en": "3 years or more",
+      "pt": "3 anos ou mais"
+     },
+     "v": 6
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Can you keep a rally going off the back glass?",
+    "pt": "Consegue manter a troca usando o vidro de fundo?"
+   },
+   "options": [
+    {
+     "label": {
+      "en": "Not yet",
+      "pt": "Ainda não"
+     },
+     "v": 1
+    },
+    {
+     "label": {
+      "en": "Sometimes",
+      "pt": "Às vezes"
+     },
+     "v": 3
+    },
+    {
+     "label": {
+      "en": "Most of the time",
+      "pt": "Na maioria das vezes"
+     },
+     "v": 5
+    },
+    {
+     "label": {
+      "en": "Yes, and I attack from it",
+      "pt": "Sim, e ataco a partir dele"
+     },
+     "v": 7
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "What do you do with a lob over your head at the net?",
+    "pt": "O que faz com um lob por cima da cabeça, na rede?"
+   },
+   "options": [
+    {
+     "label": {
+      "en": "I let it go",
+      "pt": "Deixo passar"
+     },
+     "v": 1
+    },
+    {
+     "label": {
+      "en": "I run back and hope",
+      "pt": "Corro para trás e espero"
+     },
+     "v": 2
+    },
+    {
+     "label": {
+      "en": "A bandeja to keep the net",
+      "pt": "Uma bandeja para manter a rede"
+     },
+     "v": 5
+    },
+    {
+     "label": {
+      "en": "Bandeja or víbora, by choice",
+      "pt": "Bandeja ou víbora, à escolha"
+     },
+     "v": 7
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "How do you play matches?",
+    "pt": "Como joga os jogos?"
+   },
+   "options": [
+    {
+     "label": {
+      "en": "Not yet",
+      "pt": "Ainda não jogo"
+     },
+     "v": 1
+    },
+    {
+     "label": {
+      "en": "Friendly games",
+      "pt": "Jogos amigáveis"
+     },
+     "v": 3
+    },
+    {
+     "label": {
+      "en": "Regular club matches",
+      "pt": "Jogos regulares de clube"
+     },
+     "v": 5
+    },
+    {
+     "label": {
+      "en": "Leagues or tournaments",
+      "pt": "Ligas ou torneios"
+     },
+     "v": 7
+    }
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "bandeja",
+   "name": {
+    "en": "Bandeja",
+    "pt": "Bandeja"
+   },
+   "kind": {
+    "en": "Overhead, to keep the net",
+    "pt": "Pancada alta, para manter a rede"
+   },
+   "text": {
+    "en": "The bandeja is a controlled overhead used to keep the net without forcing a winner. Tomás teaches a sideways preparation, a calm contact point and a balanced recovery.",
+    "pt": "A bandeja é uma pancada alta controlada, usada para manter a rede sem forçar o ponto. O Tomás ensina uma preparação de lado, um ponto de contacto calmo e uma recuperação equilibrada."
+   }
+  },
+  {
+   "id": "vibora",
+   "name": {
+    "en": "Víbora",
+    "pt": "Víbora"
+   },
+   "kind": {
+    "en": "Overhead with side spin",
+    "pt": "Pancada alta com efeito lateral"
+   },
+   "text": {
+    "en": "The víbora adds side spin and speed so the ball stays low after the glass. Tomás builds it from relaxed shoulder rotation, clean timing and a finish across the body.",
+    "pt": "A víbora acrescenta efeito lateral e velocidade para a bola ficar baixa depois do vidro. O Tomás constrói-a com rotação relaxada do ombro, timing limpo e um final cruzado pelo corpo."
+   }
+  },
+  {
+   "id": "chiquita",
+   "name": {
+    "en": "Chiquita",
+    "pt": "Chiquita"
+   },
+   "kind": {
+    "en": "Soft ball to the feet",
+    "pt": "Bola suave aos pés"
+   },
+   "text": {
+    "en": "The chiquita is a soft, low shot played towards the feet of opponents at the net. Tomás teaches players to disguise it, control the pace and move forward together.",
+    "pt": "A chiquita é uma pancada suave e baixa jogada aos pés dos adversários na rede. O Tomás ensina a disfarçá-la, controlar o ritmo e avançar em conjunto."
+   }
+  },
+  {
+   "id": "bajada",
+   "name": {
+    "en": "Bajada de pared",
+    "pt": "Bajada de pared"
+   },
+   "kind": {
+    "en": "Attack off the back glass",
+    "pt": "Ataque após o vidro de fundo"
+   },
+   "text": {
+    "en": "The bajada de pared attacks a high ball after it rebounds from the back glass. Tomás focuses on early spacing, a high preparation and controlled direction rather than wild power.",
+    "pt": "A bajada de pared ataca uma bola alta depois de ressaltar no vidro de fundo. O Tomás foca o espaçamento antecipado, a preparação alta e a direcção controlada em vez de força descontrolada."
+   }
+  }
+ ]
+}

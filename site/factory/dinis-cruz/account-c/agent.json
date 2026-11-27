@@ -1,0 +1,12 @@
+{
+ "agent": "padel-coach.c@SovereignWebsite.dinis",
+ "role": "keeper",
+ "site": "https://padel-coach.sport.template.sovereignweb.site/",
+ "repository": "SovereignWebsite/Site__Template__Sport__Padel-Coach",
+ "branch": "dev",
+ "started_by": "padel.c@SovereignWebsite.dinis, at Dinis Cruz's word in padel.c's session on 2026-11-27",
+ "session": "https://claude.ai/code/session_01Kw9UwCNs76RhVM5EgPiweB",
+ "key": "site/keys/padel-coach.c.json",
+ "designer": "design.c@SovereignWebsite.dinis (through padel.c)",
+ "sibling": "oscar.a (account A, Oscar's real padel site; never edit or copy from it)"
+}

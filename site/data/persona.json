@@ -1,0 +1,237 @@
+{
+  "name": "Tomás Vilaréu",
+  "first_name": "Tomás",
+  "surname": "Vilaréu",
+  "age": 36,
+  "town": "Loulé, Algarve, Portugal",
+  "club": "Clube Padel Brisa do Laranjal",
+  "tagline": "Calm coaching, smarter choices, better padel",
+  "tagline_pt": "Treino calmo, decisões inteligentes, melhor padel",
+  "bio": "Tomás Vilaréu is a bilingual padel coach based near Loulé, where he leads sessions at the fictional Clube Padel Brisa do Laranjal. A calm communicator, he coaches in Portuguese and English, helping local players, expats and visitors feel equally welcome on court. Tomás began playing racket sports as a teenager and later focused fully on padel, drawn to its teamwork, angles and quick tactical choices. His sessions combine clear demonstrations, purposeful repetition and plenty of live play. He pays close attention to movement, positioning and decision making before adding speed or power. Whether guiding a complete beginner or an experienced competitor, Tomás sets practical goals, gives direct feedback and keeps the atmosphere friendly, focused and encouraging throughout every lesson for all players.",
+  "bio_pt": "Tomás Vilaréu é um treinador bilingue de padel sediado perto de Loulé, onde orienta sessões no fictício Clube Padel Brisa do Laranjal. Comunica com calma em português e inglês, fazendo com que jogadores locais, residentes estrangeiros e visitantes se sintam bem-vindos. Começou nos desportos de raquete durante a adolescência e mais tarde dedicou-se ao padel, atraído pelo trabalho de equipa, pelos ângulos e pelas decisões rápidas. As suas sessões combinam demonstrações claras, repetição com propósito e situações reais de jogo. Tomás dá prioridade ao movimento, posicionamento e tomada de decisão antes de acrescentar velocidade ou potência. Define objetivos práticos, oferece feedback direto e mantém cada aula acolhedora, concentrada e positiva.",
+  "philosophy": [
+    {
+      "principle": "Position before power",
+      "explanation": "Good court position creates easier shots and fewer rushed decisions."
+    },
+    {
+      "principle": "Train with a purpose",
+      "explanation": "Every drill should connect clearly to a real match situation."
+    },
+    {
+      "principle": "Play the next ball",
+      "explanation": "Recover quickly, stay composed and prepare for what follows."
+    }
+  ],
+  "programmes": [
+    {
+      "id": "P1",
+      "title": "Padel Foundations",
+      "for": "Complete beginners and players returning after a long break",
+      "length": "60 minutes",
+      "group": "2 to 4 players",
+      "focus": [
+        "Grip and ready position",
+        "Simple forehands and backhands",
+        "Using the back glass safely",
+        "Scoring, positioning and basic teamwork"
+      ]
+    },
+    {
+      "id": "P2",
+      "title": "Build Your Game",
+      "for": "Improving players at levels 2 to 4",
+      "length": "75 minutes",
+      "group": "2 to 4 players",
+      "focus": [
+        "Consistent rally patterns",
+        "Net movement and recovery",
+        "Lobs and controlled volleys",
+        "Choosing high-percentage shots"
+      ]
+    },
+    {
+      "id": "P3",
+      "title": "Tactical Match Lab",
+      "for": "Confident intermediate and advanced players at levels 4 to 7",
+      "length": "90 minutes",
+      "group": "4 players",
+      "focus": [
+        "Pair movement and communication",
+        "Building and defending the net",
+        "Opponent analysis",
+        "Pressure points and match scenarios"
+      ]
+    },
+    {
+      "id": "P4",
+      "title": "Algarve Visitor Session",
+      "for": "Visitors, expats and mixed-level groups seeking a focused session",
+      "length": "60 minutes",
+      "group": "1 to 4 players",
+      "focus": [
+        "A quick personal level check",
+        "Technical corrections",
+        "Local court and wind conditions",
+        "Guided points with individual feedback"
+      ]
+    }
+  ],
+  "timetable": {
+    "note": "Sessions run in the cooler mornings and evenings. Midday is avoided during the Algarve summer heat.",
+    "Mon": [
+      {
+        "time": "07:30",
+        "programme": "P1"
+      },
+      {
+        "time": "18:30",
+        "programme": "P2"
+      }
+    ],
+    "Tue": [
+      {
+        "time": "08:00",
+        "programme": "P4"
+      },
+      {
+        "time": "19:00",
+        "programme": "P3"
+      }
+    ],
+    "Wed": [
+      {
+        "time": "07:30",
+        "programme": "P2"
+      },
+      {
+        "time": "18:30",
+        "programme": "P1"
+      }
+    ],
+    "Thu": [
+      {
+        "time": "08:00",
+        "programme": "P4"
+      },
+      {
+        "time": "19:00",
+        "programme": "P3"
+      }
+    ],
+    "Fri": [
+      {
+        "time": "07:30",
+        "programme": "P2"
+      },
+      {
+        "time": "18:30",
+        "programme": "P4"
+      }
+    ],
+    "Sat": [
+      {
+        "time": "08:00",
+        "programme": "P1"
+      },
+      {
+        "time": "18:00",
+        "programme": "P3"
+      }
+    ],
+    "Sun": [
+      {
+        "time": "08:30",
+        "programme": "P4"
+      },
+      {
+        "time": "18:30",
+        "programme": "P2"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "name": "First Steps",
+      "text": "You are learning the rules, basic strokes and safe court movement."
+    },
+    {
+      "level": 2,
+      "name": "Developing Beginner",
+      "text": "You can rally at a gentle pace and are starting to use the glass."
+    },
+    {
+      "level": 3,
+      "name": "Improving Player",
+      "text": "You sustain rallies, understand basic positioning and approach the net with purpose."
+    },
+    {
+      "level": 4,
+      "name": "Club Intermediate",
+      "text": "You use lobs, volleys and simple tactics with growing consistency."
+    },
+    {
+      "level": 5,
+      "name": "Strong Intermediate",
+      "text": "You control tempo, defend with the glass and build points as a pair."
+    },
+    {
+      "level": 6,
+      "name": "Advanced",
+      "text": "You handle pressure, vary attacking shots and exploit tactical weaknesses."
+    },
+    {
+      "level": 7,
+      "name": "Competition",
+      "text": "You play fast, disciplined padel with advanced technique and reliable match strategy."
+    }
+  ],
+  "shots": [
+    {
+      "name": "Bandeja",
+      "text": "The bandeja is a controlled overhead used to keep the net without forcing a winner. Tomás teaches a sideways preparation, a calm contact point and a balanced recovery."
+    },
+    {
+      "name": "Vibora",
+      "text": "The vibora adds side spin and speed to make the ball stay low after the glass. Tomás builds it from relaxed shoulder rotation, clean timing and a finish across the body."
+    },
+    {
+      "name": "Chiquita",
+      "text": "The chiquita is a soft, low shot played towards the feet of opponents at the net. Tomás teaches players to disguise it, control the pace and move forward together."
+    },
+    {
+      "name": "Bajada de pared",
+      "text": "The bajada de pared attacks a high ball after it rebounds from the back glass. Tomás focuses on early spacing, a high preparation and controlled direction rather than wild power."
+    }
+  ],
+  "day": "Tomás arrives early, while Atlantic light spills across the courts and the orange groves beyond the fence still hold the morning cool. He checks the nets, sets out cones and welcomes the first players in Portuguese and English. Between sessions, he reviews notes beneath the shaded terrace and plans simple tactical challenges. By late afternoon, wind moves through the club and changes the ball’s flight. Evening groups practise adapting together, then finish with relaxed points as the sky turns gold.",
+  "appearance": "Tomás is a 36-year-old Portuguese man with warm olive skin, hazel-brown eyes and a lean, athletic build. He is 178 centimetres tall, with short dark brown wavy hair, a neat low taper and a closely trimmed beard. His coaching kit is a deep teal polo shirt, sand-coloured shorts, plain white crew socks and coral court shoes. He carries a matte black padel racket with a subtle teal edge. All clothing and equipment are unbranded, with no logos or visible text.",
+  "image_prompts": [
+    {
+      "id": "IMG1",
+      "purpose": "Homepage coach portrait",
+      "prompt": "Photorealistic editorial portrait of Tomás Vilaréu, a 36-year-old Portuguese male padel coach with warm olive skin, hazel-brown eyes, a lean athletic build, short dark brown wavy hair with a neat low taper, and a closely trimmed beard. He stands beside a sunlit padel court near Loulé, wearing a deep teal polo, sand-coloured shorts, white crew socks and coral court shoes, holding a matte black padel racket with a subtle teal edge. Orange groves and soft Atlantic morning light in the background, natural confident expression, realistic skin texture, no logos, no brands, no text."
+    },
+    {
+      "id": "IMG2",
+      "purpose": "Coaching action",
+      "prompt": "Photorealistic editorial action photograph of the same 36-year-old Portuguese padel coach, with warm olive skin, hazel-brown eyes, lean athletic build, short dark brown wavy hair, low taper and closely trimmed beard. He demonstrates a controlled bandeja on an outdoor court, wearing the same deep teal polo, sand-coloured shorts, white crew socks and coral court shoes, using the same matte black racket with a teal edge. Clear morning light, glass walls, orange trees beyond the fence, crisp movement, no logos, no brands, no text."
+    },
+    {
+      "id": "IMG3",
+      "purpose": "Bilingual group lesson",
+      "prompt": "Photorealistic editorial photograph of Tomás Vilaréu coaching a small mixed group of adult players at a fictional Algarve padel club. Tomás has warm olive skin, hazel-brown eyes, a lean athletic build, short dark brown wavy hair with a low taper, and a closely trimmed beard; he wears a deep teal polo, sand-coloured shorts, white crew socks and coral court shoes. He gestures calmly while explaining court positioning, with a matte black racket edged in teal beside him. Friendly international atmosphere, shaded early evening light, no logos, no brands, no text."
+    },
+    {
+      "id": "IMG4",
+      "purpose": "Club environment",
+      "prompt": "Wide photorealistic editorial photograph of a fictional padel club near Loulé in the Algarve, surrounded by orange groves under bright Atlantic light. Tomás Vilaréu crosses the foreground carrying a ball basket and matte black racket with a teal edge; he is a lean 36-year-old Portuguese man with olive skin, short dark brown wavy hair, a low taper and a trimmed beard, wearing a deep teal polo, sand shorts, white socks and coral court shoes. Clean glass courts, shaded terrace, subtle afternoon wind in the trees, no logos, no brands, no signs, no text."
+    },
+    {
+      "id": "IMG5",
+      "purpose": "Evening match atmosphere",
+      "prompt": "Photorealistic editorial sports photograph of Tomás Vilaréu observing an evening padel point from beside the net as golden light fills a fictional Algarve club. He is a 36-year-old Portuguese man with warm olive skin, hazel-brown eyes, a lean athletic build, short dark brown wavy hair with a neat low taper, and a closely trimmed beard. He wears the same deep teal polo, sand-coloured shorts, white crew socks and coral court shoes and holds a matte black racket with a subtle teal edge. Wind moves the nearby orange trees, cinematic natural colour, no logos, no brands, no text."
+    }
+  ]
+}
