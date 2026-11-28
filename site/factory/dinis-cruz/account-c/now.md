@@ -12,6 +12,6 @@
 ## To do
 1. Ask design.c (through padel.c) for the brief and directions; then designs in EN and PT.
 2. Learnings from Lee-Elle's site: one "Choose a design" button with real screenshots; admin area (tasks, designs, content, photos and credits, checks, history); guided tour slides with PDF; floating language button on scroll; check at 390 px, light and dark.
-3. Own share card (assets/share/card-1200x630.jpg is still the seed's).
+3. Share card done 2026-11-28 (89 KB, made locally from p1, no model call, fictional label on it). Tour PDFs and screenshots: draft locally only, publish none until the vault route is settled (conductor.c).
 4. Record each image/text model call with model and cost (none made by me yet).
 5. Cross-account guidance from conductor.c, when padel.c forwards it: record it in restart.md.
