@@ -1,0 +1,76 @@
+{
+ "about": "What changed on this site, newest first, from the git history. A fictional example site.",
+ "repository": "https://github.com/SovereignWebsite/Site__Template__Sport__Padel-Coach",
+ "changes": [
+  {
+   "date": "2026-11-28",
+   "commit": "ae94392",
+   "subject": "Record vault route; vault not created pending Dinis's word in this session"
+  },
+  {
+   "date": "2026-11-28",
+   "commit": "d445950",
+   "subject": "Own share card from the existing photo, with the fictional label (no model call)"
+  },
+  {
+   "date": "2026-11-28",
+   "commit": "f23e652",
+   "subject": "Record vault guidance for large media"
+  },
+  {
+   "date": "2026-11-27",
+   "commit": "b5b88a8",
+   "subject": "Merge picker: keys in EN and PT, Choose a design button, footer targets, remove two stray files"
+  },
+  {
+   "date": "2026-11-27",
+   "commit": "0c009fa",
+   "subject": "Merge design.c's five designs (work/design.c-padel-1)"
+  },
+  {
+   "date": "2026-11-27",
+   "commit": "58b3092",
+   "subject": "Design 4: keep the top bar on one line on phones (narrower brand below 420 px)"
+  },
+  {
+   "date": "2026-11-27",
+   "commit": "a9977df",
+   "subject": "Five designs for the padel coach example, built from the live page"
+  },
+  {
+   "date": "2026-11-27",
+   "commit": "3f0cd44",
+   "subject": "Keys: design.c publishes its own key (the same key as in SovereignWebsite__IaC team/keys.json, c71e96c)"
+  },
+  {
+   "date": "2026-11-27",
+   "commit": "eb09bea",
+   "subject": "Design brief fixes 1 to 5: week list on phones, self-hosted font, WebP srcset, short bio, reduced motion and shots in words"
+  },
+  {
+   "date": "2026-11-27",
+   "commit": "6b71065",
+   "subject": "Record cross-account guidance relayed by padel.c"
+  },
+  {
+   "date": "2026-11-27",
+   "commit": "7fd47a2",
+   "subject": "First version: Tomás Vilaréu fictional padel coach example (draft)"
+  },
+  {
+   "date": "2026-11-27",
+   "commit": "eea9c77",
+   "subject": "Add padel-coach.c public signing key"
+  },
+  {
+   "date": "2026-11-27",
+   "commit": "5a8d400",
+   "subject": "Seed 23 files from SovereignWebsite__IaC (org-apply)"
+  },
+  {
+   "date": "2026-11-27",
+   "commit": "41a5181",
+   "subject": "Initial commit"
+  }
+ ]
+}

@@ -49,3 +49,9 @@ body{margin:0}
 [data-design] .dchoose{display:none}
 footer .foot-links a{display:inline-flex;align-items:center;min-height:44px}
 @media (max-width:420px){.topbar .wrap{gap:6px}.topbar .brand{font-size:.95rem}.dchoose{padding:0 10px}.topbar .lang button{padding:6px 8px}}
+.verbar{margin-left:auto;font-family:var(--mono);font-size:.78rem;padding-right:0}.verbar a{color:#f7c56a}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.gh{font-weight:600;text-decoration:none}.ghm{display:none}
+@media (max-width:640px){.ghm{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;margin-left:auto;border:1px solid var(--ink);border-radius:999px;color:var(--ink);text-decoration:none;font-size:1rem;flex:none}.dchoose{margin-left:0}}
+@media (max-width:420px){.ghm{min-width:40px}}
+@media (max-width:420px){.topbar .wrap{gap:4px;padding-inline:10px}.topbar .brand{font-size:.85rem}.dchoose{padding:0 8px;font-size:.8rem}.topbar .lang button{padding:6px 6px;font-size:.75rem}.ghm{min-width:36px}}

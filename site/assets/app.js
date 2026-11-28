@@ -176,4 +176,5 @@ function play() {
 function renderAll() { statics(); about(); levelOptions(); ladder(); quizForm(); score(); week(); pickedText(); shotBtns(); play(); }
 document.querySelectorAll(".lang button").forEach((b) => b.addEventListener("click", () => { lang = b.dataset.lang; try { localStorage.setItem("tv-lang", lang); } catch (e) {} renderAll(); }));
 renderAll();
+fetch("/version.json").then((r) => r.ok ? r.json() : null).then((v) => { if (v && v.version) $("#ver").textContent = v.version + (v.commit ? " · " + v.commit : ""); }).catch(() => {});
 })();

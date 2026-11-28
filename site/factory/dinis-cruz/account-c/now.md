@@ -15,3 +15,7 @@
 3. Share card done 2026-11-28 (89 KB, made locally from p1, no model call, fictional label on it). Tour PDFs and screenshots: draft locally only, publish none until the vault route is settled (conductor.c).
 4. Record each image/text model call with model and cost (none made by me yet).
 5. Cross-account guidance from conductor.c, when padel.c forwards it: record it in restart.md.
+
+## 2026-11-28 version and GitHub star (rule relayed by padel.c from Dinis via c.productions and conductor.c)
+- Version at the top of every page (in the notice bar), read from /version.json by app.js, linking to /changes.json; "★ GitHub" in the top menu (a compact ★ on phones); same in all five designs (build.mjs re-run; I widened its chooser regex so linked words in the notice are filled).
+- site/changes.json is made by tools/make-changes.mjs from git log (date, short commit, subject). Gap: it runs by hand before a commit, so it lags by one commit and carries no version per entry. The proper fix is a step in the pipeline's build (.github/ci/build.mjs or the workflow, both seeded by IaC and not mine to change): asked padel.c to raise it.

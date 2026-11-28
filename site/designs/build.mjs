@@ -58,7 +58,7 @@ let head = live.split('<body>')[0]
   .replace('<link rel="stylesheet" href="/assets/extra.css">', '<link rel="stylesheet" href="/assets/extra.css">\n<link rel="stylesheet" href="/designs/shared.css">');
 const notice = live.split('<body>')[1].split('</aside>')[0] + '</aside>';
 const cards = DESIGNS.map((d) => `<li><a href="/designs/${d.n}/"><img src="/designs/${d.n}/shot.webp" alt="" width="720" height="450" loading="lazy"><h2>${d.n}. ${d.name} <span lang="pt-PT">${d.pt}</span></h2><p>${d.line}</p></a></li>`).join('\n');
-writeFileSync(`${ROOT}/designs/index.html`, `${head}<body class="chooser">\n${notice.replace(/<span([^>]*?) data-t="([a-z_0-9]+)">[^<]*<\/span>/g, (m, a, k) => `<span${a}>${content.ui[k] ? content.ui[k].en : ''}</span>`)}
+writeFileSync(`${ROOT}/designs/index.html`, `${head}<body class="chooser">\n${notice.replace(/<(span|a)([^>]*?) data-t="([a-z_0-9]+)">[^<]*<\/\1>/g, (m, t, a, k) => `<${t}${a}>${content.ui[k] ? content.ui[k].en : ''}</${t}>`)}
 <main id="main"><div class="wrap">
 <p class="eyebrow">Designs, by design.c</p>
 <h1>Five designs for one padel coach</h1>

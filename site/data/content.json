@@ -427,6 +427,22 @@
   "design_n5": {
    "en": "Night Session",
    "pt": "Sessão noturna"
+  },
+  "ver_label": {
+   "en": "Version",
+   "pt": "Versão"
+  },
+  "ver_changes": {
+   "en": "what changed",
+   "pt": "o que mudou"
+  },
+  "gh_star": {
+   "en": "★ GitHub",
+   "pt": "★ GitHub"
+  },
+  "gh_title": {
+   "en": "The site's source on GitHub",
+   "pt": "O código do site no GitHub"
   }
  },
  "philosophy": [
